@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87EF2CF3-71EE-42F5-B758-022458117FF5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sinan.GameModule</RootNamespace>
+    <AssemblyName>Sinan.GameModule</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'mono|AnyCPU'">
+    <OutputPath>bin\mono\</OutputPath>
+    <DefineConstants>TRACE;mono</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\GameModule.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\GlobalAssemblyInfo.cs">
+      <Link>Properties\GlobalAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="ConfigFile.cs" />
+    <Compile Include="DataAccess\ConfigAccess.cs" />
+    <Compile Include="DataAccess\ConfigAccess_Skill.cs" />
+    <Compile Include="DataAccess\ConfigAccess_Task.cs" />
+    <Compile Include="DataAccess\FamilyBossAccess.cs" />
+    <Compile Include="DataAccess\LevelLogAccess.cs" />
+    <Compile Include="DataAccess\MemberAccess.cs" />
+    <Compile Include="DataAccess\MountsAccess.cs" />
+    <Compile Include="DataAccess\NoticeAccess.cs" />
+    <Compile Include="DataAccess\PartAccess.cs" />
+    <Compile Include="DataAccess\PlayerSortAccess.cs" />
+    <Compile Include="DataAccess\WardrobeAccess.cs" />
+    <Compile Include="DataAccess\ZhuFuAccess.cs" />
+    <Compile Include="Entity\FamilyBoss.cs" />
+    <Compile Include="Entity\MainType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\Mounts.cs" />
+    <Compile Include="Entity\MountsSimple.cs" />
+    <Compile Include="Entity\Notice.cs" />
+    <Compile Include="Entity\PartBase.cs" />
+    <Compile Include="Entity\PetRank.cs" />
+    <Compile Include="Entity\Player_Variant.cs" />
+    <Compile Include="Entity\SkillSub.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\AuctionAccess.cs" />
+    <Compile Include="DataAccess\BoardAccess.cs" />
+    <Compile Include="DataAccess\LogAccess.cs" />
+    <Compile Include="DataAccess\OrderAccess.cs" />
+    <Compile Include="DataAccess\UserLogAccess.cs" />
+    <Compile Include="DataAccess\WordAccess.cs" />
+    <Compile Include="Entity\PlayerEx.cs" />
+    <Compile Include="Entity\Board.cs" />
+    <Compile Include="Entity\PlayerPKRank.cs" />
+    <Compile Include="Entity\Word.cs" />
+    <Compile Include="DataAccess\EmailAccess.cs" />
+    <Compile Include="DataAccess\FamilyAccess.cs" />
+    <Compile Include="DataAccess\GoodsAccess.cs" />
+    <Compile Include="DataAccess\MallAccess.cs" />
+    <Compile Include="DataAccess\PetAccess.cs" />
+    <Compile Include="DataAccess\PlayerAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\PlayerExAccess.cs" />
+    <Compile Include="DataAccess\PlayerAccess_Finance.cs" />
+    <Compile Include="DataAccess\TaskAccess.cs" />
+    <Compile Include="DataAccess\TopAccess.cs" />
+    <Compile Include="Entity\ActionStatus.cs" />
+    <Compile Include="Entity\APCProperty.cs" />
+    <Compile Include="Entity\Auction.cs" />
+    <Compile Include="Entity\Email.cs" />
+    <Compile Include="Entity\Family.cs" />
+    <Compile Include="Entity\Pet.cs" />
+    <Compile Include="Entity\PetSimple.cs" />
+    <Compile Include="Entity\Player_Scene.cs" />
+    <Compile Include="Entity\Player_Adorn.cs" />
+    <Compile Include="Entity\Task.cs" />
+    <Compile Include="Entity\Goods.cs" />
+    <Compile Include="Entity\Player_Finance.cs" />
+    <Compile Include="Entity\PetProperty.cs" />
+    <Compile Include="Entity\Player.cs" />
+    <Compile Include="Entity\PlayerProperty.cs" />
+    <Compile Include="Entity\PlayerSimple.cs" />
+    <Compile Include="Entity\SmartVariantEntity.cs" />
+    <Compile Include="IndexCreater.cs" />
+    <Compile Include="LoginVerification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkillHelper.cs" />
+    <Compile Include="VariantBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Bson\Bson.csproj">
+      <Project>{0E9A3A2A-49CD-4F6C-847C-DC79B4B65CE6}</Project>
+      <Name>Bson</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common.csproj">
+      <Project>{8129F8DD-03B9-4BED-AA2A-BE05E454C8B0}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Driver\Driver.csproj">
+      <Project>{AE5166CD-76B0-4911-BD80-CED9521F37A1}</Project>
+      <Name>Driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\FastConfig\FastConfig.csproj">
+      <Project>{6763FB91-F400-4824-9870-8B4368E2F7D0}</Project>
+      <Name>FastConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\FastJson\FastJson.csproj">
+      <Project>{62050C7E-AF69-4CD4-A8B0-20615E435553}</Project>
+      <Name>FastJson</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\FastSocket\FastSocket.csproj">
+      <Project>{98C2F10A-9D59-4174-98EA-5C39ED768D11}</Project>
+      <Name>FastSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Framework\Framework.csproj">
+      <Project>{A4DF0F28-472A-4C9A-990A-0D0222B39A8A}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

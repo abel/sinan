@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D44861B2-E120-4E02-B6A7-1189F58C7231}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sinan.FrontServer</RootNamespace>
+    <AssemblyName>FrontServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;QY</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;QY</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'mono|AnyCPU'">
+    <OutputPath>bin\mono\</OutputPath>
+    <DefineConstants>TRACE;mono,QY</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\FrontServer.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmfCodec.cs" />
+    <Compile Include="AmfServer.cs" />
+    <Compile Include="Apc\EctypeApc.cs" />
+    <Compile Include="Player\PlayerBusiness_Family.cs" />
+    <Compile Include="UserBuffer.cs" />
+    <Compile Include="Business\EctypeLimit.cs" />
+    <Compile Include="Business\ExperienceControl.cs" />
+    <Compile Include="Business\TeamInstanceBusiness.cs" />
+    <Compile Include="GameProcessor.cs" />
+    <Compile Include="Handshaker.cs" />
+    <Compile Include="CommandProcessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Fight\FightBusinessCC.cs" />
+    <Compile Include="Fight\FightBusinessPro.cs" />
+    <Compile Include="Fight\FightBusinessRob.cs" />
+    <Compile Include="Fight\FightBusinessRobApc.cs" />
+    <Compile Include="Fight\FightBusiness_Award.cs" />
+    <Compile Include="Fight\FightBusinessProApc.cs" />
+    <Compile Include="Fight\FightBusinessEctype.cs" />
+    <Compile Include="Fight\ParetBusiness.cs" />
+    <Compile Include="GMProcessor.cs" />
+    <Compile Include="Mediator\PartMediator.cs" />
+    <Compile Include="Mediator\TeamInstanceMediator.cs" />
+    <Compile Include="Notification\GMNote.cs" />
+    <Compile Include="Part\HuntBusiness.cs" />
+    <Compile Include="Part\PartBusiness.cs" />
+    <Compile Include="Part\ProBusiness.cs" />
+    <Compile Include="Part\RobBusiness.cs" />
+    <Compile Include="Part\ScenePart.cs" />
+    <Compile Include="Part\ScenePro.cs" />
+    <Compile Include="Part\SceneRob.cs" />
+    <Compile Include="Apc\ActiveApc.cs" />
+    <Compile Include="Arena\SceneArena.cs" />
+    <Compile Include="Arena\SceneFamily.cs" />
+    <Compile Include="Arena\ScenePerson.cs" />
+    <Compile Include="Arena\SceneTeam.cs" />
+    <Compile Include="Box\BoxBusiness.cs" />
+    <Compile Include="Box\BoxShare.cs" />
+    <Compile Include="Apc\SceneApc.cs" />
+    <Compile Include="Mediator\BoxMediator.cs" />
+    <Compile Include="Mediator\SceneApcMediator.cs" />
+    <Compile Include="Player\PlayerBusiness_Award.cs" />
+    <Compile Include="Player\PlayerBusiness_Board.cs" />
+    <Compile Include="Player\PlayerBusiness_Log.cs" />
+    <Compile Include="Player\PlayerBusiness_Package.cs" />
+    <Compile Include="Player\PlayerBusiness_Pet.cs" />
+    <Compile Include="Player\PlayerBusiness_TeamInstance.cs" />
+    <Compile Include="Proxy\BoxProxy.cs" />
+    <Compile Include="Proxy\PartProxy.cs" />
+    <Compile Include="Proxy\SceneApcProxy.cs" />
+    <Compile Include="Proxy\SessionFactory.cs" />
+    <Compile Include="Proxy\TeamInstanceProxy.cs" />
+    <Compile Include="Scene\ExitLimit.cs" />
+    <Compile Include="Scene\IntoLimit.cs" />
+    <Compile Include="Player\PlayerBusiness_Buffer.cs" />
+    <Compile Include="Player\PlayerBusiness_Call.cs" />
+    <Compile Include="Player\PlayerBusiness_Effort.cs" />
+    <Compile Include="Player\PlayerBusiness_Daily.cs" />
+    <Compile Include="Player\PlayerBusiness_Ex.cs" />
+    <Compile Include="Player\PlayerBusiness_Equip.cs" />
+    <Compile Include="Player\PlayerBusiness_Skill.cs" />
+    <Compile Include="Player\PlayerBusiness_Walk.cs" />
+    <Compile Include="Scene\SceneBattle.cs" />
+    <Compile Include="Scene\SceneBusiness_Apc.cs" />
+    <Compile Include="Scene\SceneBusiness_Call.cs" />
+    <Compile Include="Scene\SceneBusiness_Fight.cs" />
+    <Compile Include="Scene\SceneCity.cs" />
+    <Compile Include="Scene\SceneEctype.cs" />
+    <Compile Include="Scene\SceneHome.cs" />
+    <Compile Include="Scene\SceneInstance.cs" />
+    <Compile Include="Scene\SceneOutdoor.cs" />
+    <Compile Include="Scene\SceneSubEctype.cs" />
+    <Compile Include="Scene\SceneType.cs" />
+    <Compile Include="Effect\AttackBase.cs" />
+    <Compile Include="Effect\AttackMagic.cs" />
+    <Compile Include="Effect\AttackPhysical.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Effect\AttackDamage.cs" />
+    <Compile Include="Effect\AttackParameter.cs" />
+    <Compile Include="Effect\BufferResult.cs" />
+    <Compile Include="Effect\IAttack.cs" />
+    <Compile Include="Fight\ActionType.cs" />
+    <Compile Include="Fight\BufferType.cs" />
+    <Compile Include="Fight\FightAction.cs" />
+    <Compile Include="Fight\FightApc.cs" />
+    <Compile Include="Fight\FightApc_AI.cs" />
+    <Compile Include="Fight\FightBase.cs" />
+    <Compile Include="Fight\FightBase_Buffer.cs" />
+    <Compile Include="Fight\FightBase_ChangePet.cs" />
+    <Compile Include="Fight\FightBase_TaoPao.cs" />
+    <Compile Include="Fight\FightBase_Target.cs" />
+    <Compile Include="Fight\FightBase_ZhuaPu.cs" />
+    <Compile Include="Fight\FightBase_DaoJu.cs" />
+    <Compile Include="Fight\FightBase_Skill.cs" />
+    <Compile Include="Fight\FightBase_Wuli.cs" />
+    <Compile Include="Fight\FightBB.cs" />
+    <Compile Include="Fight\FightBos.cs" />
+    <Compile Include="Fight\FightBusiness.cs" />
+    <Compile Include="Fight\FightBase_Static.cs" />
+    <Compile Include="Fight\FightBusinessApc.cs" />
+    <Compile Include="Fight\FightObject.cs" />
+    <Compile Include="Fight\FightPet.cs" />
+    <Compile Include="Fight\FightBusinessPK.cs" />
+    <Compile Include="Fight\FightPlayer.cs" />
+    <Compile Include="Business\PetsBusiness.cs" />
+    <Compile Include="Player\PlayerBusiness_Property.cs" />
+    <Compile Include="Business\PropertyHelper.cs" />
+    <Compile Include="Fight\ActionResult.cs" />
+    <Compile Include="Mediator\TeamCaptainMediator.cs" />
+    <Compile Include="Mediator\TeamMembersMediator.cs" />
+    <Compile Include="Mediator\TeamsMediator.cs" />
+    <Compile Include="PlayerDetail.cs" />
+    <Compile Include="PlayerExDetail.cs" />
+    <Compile Include="Business\GoodsBusiness.cs" />
+    <Compile Include="Player\PlayerBusiness.cs" />
+    <Compile Include="Business\RoleBusiness.cs" />
+    <Compile Include="Scene\SceneBusiness.cs" />
+    <Compile Include="Mediator\EveryoneMediator.cs" />
+    <Compile Include="Mediator\FightMediator.cs" />
+    <Compile Include="Proxy\PlayersProxy.cs" />
+    <Compile Include="Proxy\ScenesProxy_Path.cs" />
+    <Compile Include="Proxy\SessionsProxy.cs" />
+    <Compile Include="Proxy\UsersProxy.cs" />
+    <Compile Include="ServerManager.cs" />
+    <Compile Include="ServerLogger.cs" />
+    <Compile Include="Team\PlayerTeam.cs" />
+    <Compile Include="UserSession.cs" />
+    <Compile Include="Mediator\PlayersMediator.cs" />
+    <Compile Include="Mediator\ScenesMediator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrontApplication.cs" />
+    <Compile Include="Mediator\UsersMediator.cs" />
+    <Compile Include="Notification\UserNote.cs" />
+    <Compile Include="Proxy\ScenesProxy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Bson\Bson.csproj">
+      <Project>{0E9A3A2A-49CD-4F6C-847C-DC79B4B65CE6}</Project>
+      <Name>Bson</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\Common\Common.csproj">
+      <Project>{8129F8DD-03B9-4BED-AA2A-BE05E454C8B0}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\Driver\Driver.csproj">
+      <Project>{AE5166CD-76B0-4911-BD80-CED9521F37A1}</Project>
+      <Name>Driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\FastConfig\FastConfig.csproj">
+      <Project>{6763FB91-F400-4824-9870-8B4368E2F7D0}</Project>
+      <Name>FastConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\FastJson\FastJson.csproj">
+      <Project>{62050C7E-AF69-4CD4-A8B0-20615E435553}</Project>
+      <Name>FastJson</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\FastSocket\FastSocket.csproj">
+      <Project>{98C2F10A-9D59-4174-98EA-5C39ED768D11}</Project>
+      <Name>FastSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base\Framework\Framework.csproj">
+      <Project>{A4DF0F28-472A-4C9A-990A-0D0222B39A8A}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\GameConfig\GameConfig.csproj">
+      <Project>{0A4050B5-B486-48A0-B578-685A2213DA4B}</Project>
+      <Name>GameConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\GameModule\GameModule.csproj">
+      <Project>{87EF2CF3-71EE-42F5-B758-022458117FF5}</Project>
+      <Name>GameModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Plugins\ReadMe.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>rd $(TargetDir)\Config /s /q</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

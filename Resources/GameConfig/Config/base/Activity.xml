@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <caption>
+    <p id='1' color='EBCC84'>
+      每天登录点击签到以后，会根据本周签到次数给予奖励。本周内签到次数越多，奖励越丰厚！<f color='ff0000' weight="">点击签到前请确认包袱中有一格以上空位，如果包袱已满将无法获得签到奖励！</f>
+    </p>
+  </caption>
+  <content id="a001" type="0"  name="今日签到" finish="1" value="5" explain="每日签到一次"></content>
+  <content id="a002" type="1" name="初来乍到" finish="120" value="5"  explain="每日在线时间2小时，便可完成该任务"></content>
+  <content id="a003" type="1" name="铁杆粉丝" finish="240" value="10" explain="每日在线时间4小时，便可完成该任务"></content>
+  <content id="a004" type="1" name="石器拥护者" finish="360" value="20" explain="每日在线时间6小时，便可完成该任务"></content>
+  <content id="a005" type="2" name="小试身手" finish="1000" value="5" explain="在野外击杀1000只怪物，便可完成该任务"></content>
+  <content id="a006" type="2" name="丛林猎手" finish="3000" value="15" explain="在野外击杀3000只怪物，便可完成该任务"></content>
+  <content id="a007" type="2" name="暴龙杀手" finish="5000" value="25" explain="在野外击杀5000只怪物，便可完成该任务"></content>
+  <content id="a008" type="3" name="知识问答" finish="5" value="5" explain="每日在凡海城罗伦斯处完成5次答题，便可完成该任务"></content>
+    <content id="a009" type="3" name="学有小成" finish="15" value="20" explain="每日在凡海城罗伦斯处完成15次答题，便可完成该任务"></content>
+	  <content id="a010" type="3" name="学识渊博" finish="30" value="50" explain="每日在凡海城罗伦斯处完成30次答题，便可完成该任务"></content>
+  <content id="a011" type="4" name="宠物照顾" finish="3" value="5" explain="每日在自己的家园里对宠物进行照顾3次，便可完成该任务"></content>
+  <content id="a0012" type="5" name="家园生产" finish="1" value="5" explain="每日在自己的家园里生产物品1次，便可完成该任务"></content>
+  <content id="a0013" type="6" name="日常任务" finish="5" value="10" explain="每日完成5个日常任务，便可完成该任务"></content>
+    <content id="a0014" type="6" name="日常任务" finish="30" value="50" explain="每日完成30个日常任务，便可完成该任务"></content>
+  <content id="a0015" type="7" name="环式任务" finish="15" value="15" explain="每日完成15个环式任务，便可完成该任务"></content>    
+  <content id="a0016" type="13" name="秘境探险" finish="2" value="20" explain="每日进入秘境2次，便可完成该任务"></content>
+    <content id="a0017" type="13" name="秘境杀手" finish="5" value="50" explain="每日进入秘境5次，便可完成该任务"></content>
+	 <content id="a0018" type="13" name="秘境终结者" finish="10" value="100" explain="每日进入秘境10次，便可完成该任务"></content>
+  <content id="a0019" type="9" name="守护战争" finish="1" value="20" explain="每日参加守护战争1次，便可完成该任务"></content>
+  <content id="a0020" type="11" name="好友祝福" finish="5" value="25" explain="每日祝福5个好友，便可完成该任务"></content>
+
+  
+
+  <!--活跃度奖励-->
+  <award value="50" goodsid="G_d000701"></award>
+  <award value="100" goodsid="G_d000702"></award>
+  <award value="200" goodsid="G_d000703"></award>
+  <award value="300" goodsid="G_d000704"></award>
+  <award value="400" goodsid="G_d000533"></award>
+  
+  <!--签到奖励-->
+  <sign value="2" goodsid="G_b000001"></sign>
+  <sign value="3" goodsid="G_b000002"></sign>
+  <sign value="5" goodsid="G_b000003"></sign>
+  <sign value="6" goodsid="G_b000004"></sign>
+  <sign value="7" goodsid="G_b000005"></sign>
+  
+  <!--连续登录奖励-->
+  <day value="0" goodsid="G_b000001"></day>
+  <day value="1" goodsid="G_b000001"></day>
+  <day value="2" goodsid="G_b000001"></day>
+  <day value="3" goodsid="G_b000002"></day>
+  <day value="4" goodsid="G_b000002"></day>
+  <day value="5" goodsid="G_b000003"></day>
+  <day value="6" goodsid="G_b000003"></day>
+  <day value="7" goodsid="G_b000004"></day>
+  <day value="8" goodsid="G_b000005"></day>
+  
+  <!--VIP套餐服务（取消）-->
+  <vip id="vip001" goodsid="G_d000800" name="成长套餐" vipid="G_d000753" count="60" number="1"></vip>
+  <vip id="vip002" goodsid="G_d000801" name="勇者套餐" vipid="G_d000753" count="20" number="1"></vip>
+  <vip id="vip003" goodsid="G_d000802" name="家园守护套餐" vipid="G_d000753" count="10" number="1"></vip>
+
+  <!--VIP每日奖励-->
+  <dayvip value="1" goodsid="G_d003500"></dayvip>
+  <dayvip value="2" goodsid="G_d003500"></dayvip>
+  <dayvip value="3" goodsid="G_d003500"></dayvip>
+  <dayvip value="4" goodsid="G_d003500"></dayvip>
+  <dayvip value="5" goodsid="G_d003500"></dayvip>
+  <dayvip value="6" goodsid="G_d003500"></dayvip>
+  <dayvip value="7" goodsid="G_d003500"></dayvip>
+  <dayvip value="8" goodsid="G_d003500"></dayvip>
+  <dayvip value="9" goodsid="G_d003500"></dayvip>
+  <dayvip value="10" goodsid="G_d003500"></dayvip>
+</root>

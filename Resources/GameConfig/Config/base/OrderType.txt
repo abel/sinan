@@ -1,0 +1,10 @@
+﻿{
+"1":{"M":1,"G":1,"Name":"台币","Channel":"Mycard"}
+"2":{"M":1,"G":30,"Name":"美元","Channel":"paypal"}
+"3":{"M":1,"G":10,"Name":"马币","Channel":"mol"}
+"4":{"M":1,"G":10,"Name":"马币","Channel":"offgames"}
+"5":{"M":300,"G":1,"Name":"印尼盾","Channel":"Gudang Voucher"}
+"6":{"M":14,"G":10,"Name":"比索","Channel":"mobius"}
+"7":{"M":1,"G":5,"Name":"RMB","Channel":"yeepay"}
+"8":{"M":1,"G":1,"Name":"泰株","Channel":"MOL-Thai"}
+}

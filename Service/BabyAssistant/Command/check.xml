@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>  
+  <!--time默认更新时间-->
+  <!--upgent更新等级,0表示普通,1定时更新，2立即更新 -->
+  <!--upgenttime 等级>0有效-->
+  <date time="8:00" upgent="0" upgenttime="2012-02-25 10:00"></date>    
+</root>

@@ -1,0 +1,12 @@
+logpath = D:\mongodb64\bin\mongodb.log  #错误日志文件
+logappend = true                        #错误日志采用追加模式（默认是覆写模式）
+dbpath = D:\mongodb64\bin\db            #数据文件存放路径
+directoryperdb = true                   #每个DB存放在单独的目录中
+#bind_ip                                #对外服务的绑定 ip
+port = 27064                            #对外服务端口
+journal = true                          #开启日志功能
+syncdelay = 60                          #系统同步刷新磁盘的时间,默认是60 秒
+maxConns = 100                          #最大连接数
+profile = 1                             #记录慢命令 (默认为>100ms)
+slowms = 100
+master = true

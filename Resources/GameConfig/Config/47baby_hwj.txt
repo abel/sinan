@@ -1,0 +1,82 @@
+﻿{
+//运行平台(腾讯:tencent,趣游:gamewave,新干线:gameflier)
+"Platform": "gamewave",
+
+// 服务器分区ID
+"Zoneid": 5,
+
+// 开服时间
+"ZoneEpoch":"2012-05-23 00:00:00",
+
+// 游戏服务对玩家开放的地址
+"EpGame":"0.0.0.0:8001",
+
+// 供发货服务器调用的地址
+"EpShip":"0.0.0.0:8002",
+
+// GM服务监听的IP和端口(AMF直接调用方式)
+"EpGM"  :"0.0.0.0:8003",
+
+// GM服务监听的IP和端口(Http间接调用方式)
+"EpGMM" :"0.0.0.0:8200",
+
+// 名字数据库
+"DbBase"    :"mongodb://192.168.100.40:27017/gameQY?safe=true;maximumPoolSize=10",
+// 日志数据库
+"DbLog"     :"mongodb://192.168.100.40:27017/47baby_log?safe=true;maximumPoolSize=10",
+// 游戏角色数据库
+"DbPlayer"  :"mongodb://192.168.100.40:27017/47baby_hwj?safe=true;maximumPoolSize=32",
+
+// 最大承载人数
+"MaxClient" :1024,
+// 单个玩家的发送队列(环形)大小
+"SendQueueSize":100,
+
+// 47baby登录密匙
+"DESKey"  :"75395125",
+
+// 登录密匙,测试为"&^fdf&**sdf"
+"LoginKey"  :"58b09d6b81f7f84bbbceb98ea5de844d",
+
+// 充值密匙
+"RechargeKey": "87a5934ce7e6d5c6ec51a4367ad0d94f",
+
+// 台后GM工具密匙,如果为IP,则直接验证IP
+"GMKey": "a192168100203",
+
+// 顶级配置目录,默认为"Config"
+"DirConfig" :"Config",
+
+// 数据库配置目录
+"DirDB":"db",
+
+// 基本的配置目录(如果配置有语言包,则使用语言包目录,此目录无效)
+"DirBase" :"base",
+
+//语言包(en-US:英语美国,zh-CN:中文中国,zh-TW:中文台湾,zh-SG:中文新加坡,th-TH:泰语泰国)
+//不配置或为空则使用DirBase的配置
+"Language": ""
+
+// 游戏数据配置目录
+"DirGame" :"game",
+
+// 插件目录
+"DirPlugin":"Plugins",
+
+// log4配置文件
+"Log4Config" :"log4net.config",
+// 跨域文件
+"Crossdomain":"crossdomain.txt",
+//角色最大等级
+"MaxLevel": 100,
+//名字最大长度
+"MaxNameLen": 16,
+
+//是否开始道具金币
+"FreeCoin":true,
+
+"ReportSIP" :"127.0.0.1",
+//WebService地址
+"WebAddress":"http://192.168.100.203/ACodeService.asmx"
+
+}

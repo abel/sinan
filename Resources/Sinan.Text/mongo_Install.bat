@@ -1,0 +1,1 @@
+mongod --install --serviceName Mongo64 --serviceDisplayName "Mongo64" --config "D:\mongodb64\bin\mongodb.cnf"

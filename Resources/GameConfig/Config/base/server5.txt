@@ -1,0 +1,37 @@
+{
+// 是否记录慢操作
+"profile"    :true,
+// 要记录慢操作最小毫秒
+"slowms"     :100,
+
+"SqlReport"  :"server=192.168.100.204\\SQLEXPRESS;database=game2;uid=sa;pwd=sa",
+ // 报告在线情况时所存的表
+"SqlReportTable": "A05",
+
+// 报告在线情况的间隔时间(秒)
+"ReportPeriod": 60,
+
+// 商诚是否通过GM上下架物品
+"IsMall"        :true,
+
+// 启用高级GM能力
+"AdminGM"       :true,
+
+//发货服务是否验证签名
+"CheckSig"      :false,
+
+//启用快速登录,测试用
+"FastLogin"     :true,
+
+//新用户是否可以登录
+"OpenUser"      :true,
+
+//是否可以创建新角色
+"OpenRole"      :true,
+
+// 交易主机.生机Token,用于绑定到角色
+"BuyHost"       :"119.147.19.43",
+
+//交易页面
+"BuyUri"        :"/v3/pay/buy_goods"
+}

@@ -1,0 +1,6 @@
+{
+	"_sse":{"Value.SellerID":1,"Value.Status":1,"Value.EndTime":-1,"Value.GoodsID":1,"Value.Price":1}
+    "_vgt":{"Value.GoodsType":1}
+	"_name":{"Name":1}
+	"_bidder":{"Value.BidderID":1}
+}

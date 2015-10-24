@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--不需要更新的文件-->
+  <list>
+    <noupdate><![CDATA[GMList.txt]]></noupdate>
+    <noupdate><![CDATA[check.xml]]></noupdate>
+    <noupdate><![CDATA[exe.config]]></noupdate>
+  </list>
+  <!--该目录如果发生变化，则需要重启服务-->
+  <list>
+    <restart><![CDATA[Config\Map\]]></restart>
+    <restart><![CDATA[Config\SceneAPC\]]></restart>
+  </list>
+
+  <!--服务列表-->
+  <list>
+    <server name="47baby" path="E:\Work\Sinan2\47BabyService\bin\Release"></server>
+  </list>
+</root>

@@ -1,0 +1,17 @@
+﻿{
+"Auction":["Value.SellerID","Value.BidderID"],
+"Board":  ["_id"],
+"Email":  ["Value.ReceiveID", "Value.SendID"],
+"Family": ["Value.Persons.PlayerID"],
+"Goods":  ["PlayerID"],
+"Mall":   ["PlayerID"],
+"MallLog":["PID"],
+"Pet":    ["PlayerID"],
+"PlayerEx":["_id",
+                "Social.Enemy.PlayerID",
+                "Social.Friends.PlayerID",
+                "Social.Mentor.Apprentice.PlayerID",
+                "Social.Mentor.Master.PlayerID"],
+"Task":   ["PlayerID"],
+"UserLog":[""]
+}

@@ -1,0 +1,25 @@
+--以"--"和"//"开头的行为注释,以#开头为保留名字
+
+//字母和数字
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+//特殊字符
+"！“＃＄％＆’（）﹡＋，－·／：；〈﹦〉？﹫［﹨］＿｛｜｝～♂♀…—¨。⊙×÷∞∝∫√∽≌∴∵";
+
+//以第四个字符为"-",第九个字符为":"进行标识
+//简体中文
+4e00-9fa5:
+
+//4E00-9FBF：CJK 统一表意符号 (CJK Unified Ideographs) 
+//0E00-0E7F：泰文 (Thai)
+//0E80-0EFF：老挝文 (Lao)
+//0F00-0FFF：藏文 (Tibetan)
+//1000-109F：缅甸语 (Myanmar)
+//1100-11FF：朝鲜文 (Hangul Jamo) 
+
+//保留名字,以#开头
+#公告
+#石器宝贝
+#测试
+#系统
+#管理员

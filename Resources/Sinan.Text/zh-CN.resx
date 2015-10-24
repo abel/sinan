@@ -1,0 +1,1369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_10000" xml:space="preserve"><value>登录成功</value>
+<comment></comment>
+</data>
+  <data name="_10001" xml:space="preserve"><value>认证失败,请重新登录</value>
+<comment></comment>
+</data>
+  <data name="_10002" xml:space="preserve"><value>认证过期,请重新登录</value>
+<comment></comment>
+</data>
+  <data name="_22000" xml:space="preserve"><value>放弃任务成功</value>
+<comment></comment>
+</data>
+  <data name="_22001" xml:space="preserve"><value>错误任务</value>
+<comment></comment>
+</data>
+  <data name="_22002" xml:space="preserve"><value>接任务失败</value>
+<comment></comment>
+</data>
+  <data name="_22003" xml:space="preserve"><value>主线任务不能放弃</value>
+<comment></comment>
+</data>
+  <data name="_22004" xml:space="preserve"><value>任务已经完成不能放弃</value>
+<comment></comment>
+</data>
+  <data name="_22005" xml:space="preserve"><value>交接NPC任务不正确</value>
+<comment></comment>
+</data>
+  <data name="_22006" xml:space="preserve"><value>完成任务所在场景不正确</value>
+<comment></comment>
+</data>
+  <data name="_22007" xml:space="preserve"><value>任务已经达到完成条件,可以领奖不需要继续更新</value>
+<comment></comment>
+</data>
+  <data name="_22008" xml:space="preserve"><value>没有完成任务不能领奖</value>
+<comment></comment>
+</data>
+  <data name="_22009" xml:space="preserve"><value>对不起，您的包袱剩余空间不足，请在整理包袱后再次操作</value>
+<comment></comment>
+</data>
+  <data name="_22010" xml:space="preserve"><value>选择奖励不正确</value>
+<comment></comment>
+</data>
+  <data name="_22011" xml:space="preserve"><value>接收任务等级不足</value>
+<comment></comment>
+</data>
+  <data name="_22012" xml:space="preserve"><value>出现有异常</value>
+<comment></comment>
+</data>
+  <data name="_22013" xml:space="preserve"><value>采集场景不正确</value>
+<comment></comment>
+</data>
+  <data name="_22014" xml:space="preserve"><value>领奖参数不正确</value>
+<comment></comment>
+</data>
+  <data name="_22015" xml:space="preserve"><value>5|20</value>
+<comment></comment>
+</data>
+  <data name="_22100" xml:space="preserve"><value>合成物品不存在</value>
+<comment></comment>
+</data>
+  <data name="_22101" xml:space="preserve"><value>合成材料不足</value>
+<comment></comment>
+</data>
+  <data name="_22102" xml:space="preserve"><value>合成时装备配置有误</value>
+<comment></comment>
+</data>
+  <data name="_22103" xml:space="preserve"><value>合成时包袱满</value>
+<comment></comment>
+</data>
+  <data name="_22104" xml:space="preserve"><value>合成游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_22105" xml:space="preserve"><value>合成游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_22106" xml:space="preserve"><value>合成失败</value>
+<comment></comment>
+</data>
+  <data name="_22107" xml:space="preserve"><value>提高合成成功率的道具不足</value>
+<comment></comment>
+</data>
+  <data name="_22108" xml:space="preserve"><value>成功合成【{1}】件【{0}】!</value>
+<comment></comment>
+</data>
+  <data name="_22200" xml:space="preserve"><value>新装备等级小于旧装备,不能移炼</value>
+<comment></comment>
+</data>
+  <data name="_22201" xml:space="preserve"><value>旧装备宝石等级不足，不能移炼</value>
+<comment></comment>
+</data>
+  <data name="_22202" xml:space="preserve"><value>新装备孔个数不够,不能移炼</value>
+<comment></comment>
+</data>
+  <data name="_22203" xml:space="preserve"><value>宝石信息不存在</value>
+<comment></comment>
+</data>
+  <data name="_22204" xml:space="preserve"><value>装备不存在</value>
+<comment></comment>
+</data>
+  <data name="_22205" xml:space="preserve"><value>装备不能改造</value>
+<comment></comment>
+</data>
+  <data name="_22206" xml:space="preserve"><value>移炼游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_22300" xml:space="preserve"><value>熔炼装备不存在</value>
+<comment></comment>
+</data>
+  <data name="_22301" xml:space="preserve"><value>熔炼装备配置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22302" xml:space="preserve"><value>熔炼装备不能改造</value>
+<comment></comment>
+</data>
+  <data name="_22303" xml:space="preserve"><value>熔炼游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_22304" xml:space="preserve"><value>熔炼配置信息有误</value>
+<comment></comment>
+</data>
+  <data name="_22305" xml:space="preserve"><value>熔炼时包袱已满</value>
+<comment></comment>
+</data>
+  <data name="_22400" xml:space="preserve"><value>镶嵌装备不存在</value>
+<comment></comment>
+</data>
+  <data name="_22401" xml:space="preserve"><value>不允许镶嵌</value>
+<comment></comment>
+</data>
+  <data name="_22402" xml:space="preserve"><value>不允许改造</value>
+<comment></comment>
+</data>
+  <data name="_22403" xml:space="preserve"><value>提升成功率的道具不足</value>
+<comment></comment>
+</data>
+  <data name="_22404" xml:space="preserve"><value>表示镶嵌位置没有打孔</value>
+<comment></comment>
+</data>
+  <data name="_22405" xml:space="preserve"><value>宝石不存在</value>
+<comment></comment>
+</data>
+  <data name="_22406" xml:space="preserve"><value>镶嵌游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_22407" xml:space="preserve"><value>镶嵌失败</value>
+<comment></comment>
+</data>
+  <data name="_22408" xml:space="preserve"><value>表示该位置已经镶嵌宝石，但新宝石要求必须大于旧宝石</value>
+<comment></comment>
+</data>
+  <data name="_22500" xml:space="preserve"><value>装备不存在</value>
+<comment></comment>
+</data>
+  <data name="_22501" xml:space="preserve"><value>装备不能够改造</value>
+<comment></comment>
+</data>
+  <data name="_22502" xml:space="preserve"><value>装备不能打孔</value>
+<comment></comment>
+</data>
+  <data name="_22503" xml:space="preserve"><value>装备配置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22504" xml:space="preserve"><value>打孔已经满不能够再打孔</value>
+<comment></comment>
+</data>
+  <data name="_22505" xml:space="preserve"><value>打孔游戏币不正确</value>
+<comment></comment>
+</data>
+  <data name="_22506" xml:space="preserve"><value>打孔所需材料不足</value>
+<comment></comment>
+</data>
+  <data name="_22507" xml:space="preserve"><value>打孔失败</value>
+<comment></comment>
+</data>
+  <data name="_22600" xml:space="preserve"><value>购买成功</value>
+<comment></comment>
+</data>
+  <data name="_22601" xml:space="preserve"><value>包袱格子数不足</value>
+<comment></comment>
+</data>
+  <data name="_22602" xml:space="preserve"><value>商城物品不存在</value>
+<comment></comment>
+</data>
+  <data name="_22603" xml:space="preserve"><value>商品没有上架</value>
+<comment></comment>
+</data>
+  <data name="_22604" xml:space="preserve"><value>商品已经下架</value>
+<comment></comment>
+</data>
+  <data name="_22605" xml:space="preserve"><value>晶币类型不正确</value>
+<comment></comment>
+</data>
+  <data name="_22606" xml:space="preserve"><value>晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_22607" xml:space="preserve"><value>点券不足</value>
+<comment></comment>
+</data>
+  <data name="_22608" xml:space="preserve"><value>购买物品超过商城该品库存量</value>
+<comment></comment>
+</data>
+  <data name="_22609" xml:space="preserve"><value>购买物品量超过限量</value>
+<comment></comment>
+</data>
+  <data name="_22700" xml:space="preserve"><value>删除成功</value>
+<comment></comment>
+</data>
+  <data name="_22701" xml:space="preserve"><value>用户不存在</value>
+<comment></comment>
+</data>
+  <data name="_22702" xml:space="preserve"><value>已经存在不能加</value>
+<comment></comment>
+</data>
+  <data name="_22703" xml:space="preserve"><value>已经拜师</value>
+<comment></comment>
+</data>
+  <data name="_22704" xml:space="preserve"><value>徒弟必须小于30级</value>
+<comment></comment>
+</data>
+  <data name="_22705" xml:space="preserve"><value>师傅等级不能小于35级</value>
+<comment></comment>
+</data>
+  <data name="_22706" xml:space="preserve"><value>已经是好友</value>
+<comment></comment>
+</data>
+  <data name="_22707" xml:space="preserve"><value>玩家处于拜师与收徒的冷冻期,冷冻时间为6小时</value>
+<comment></comment>
+</data>
+  <data name="_22708" xml:space="preserve"><value>玩家不在线</value>
+<comment></comment>
+</data>
+  <data name="_22709" xml:space="preserve"><value>拜师申请成功</value>
+<comment></comment>
+</data>
+  <data name="_22710" xml:space="preserve"><value>拜师回复编号不正确</value>
+<comment></comment>
+</data>
+  <data name="_22711" xml:space="preserve"><value>拒绝拜师申请</value>
+<comment></comment>
+</data>
+  <data name="_22712" xml:space="preserve"><value>仇人</value>
+<comment></comment>
+</data>
+  <data name="_22713" xml:space="preserve"><value>已经是徒弟</value>
+<comment></comment>
+</data>
+  <data name="_22714" xml:space="preserve"><value>收徒申请成功</value>
+<comment></comment>
+</data>
+  <data name="_22715" xml:space="preserve"><value>收徒编号不正确</value>
+<comment></comment>
+</data>
+  <data name="_22716" xml:space="preserve"><value>删除好友成功</value>
+<comment></comment>
+</data>
+  <data name="_22717" xml:space="preserve"><value>解除师徒关系成功</value>
+<comment></comment>
+</data>
+  <data name="_22718" xml:space="preserve"><value>对同一角色1天只能发送一次收徒请求</value>
+<comment></comment>
+</data>
+  <data name="_22719" xml:space="preserve"><value>对同一角色1天只能发送一次拜师请求</value>
+<comment></comment>
+</data>
+  <data name="_22720" xml:space="preserve"><value>不能对自己请求</value>
+<comment></comment>
+</data>
+  <data name="_22721" xml:space="preserve"><value>申请已经达到上限，请过段时间再申请</value>
+<comment></comment>
+</data>
+  <data name="_22722" xml:space="preserve"><value>你已经收【{0}】为徒！</value>
+<comment></comment>
+</data>
+  <data name="_22723" xml:space="preserve"><value>你已经拜【{0}】为师！</value>
+<comment></comment>
+</data>
+  <data name="_22724" xml:space="preserve"><value>你已经收【{0}】为徒！</value>
+<comment></comment>
+</data>
+  <data name="_22725" xml:space="preserve"><value>你已经拜【{0}】为师！</value>
+<comment></comment>
+</data>
+  <data name="_22726" xml:space="preserve"><value>你与【{0}】成功解除师徒关系！</value>
+<comment></comment>
+</data>
+  <data name="_22727" xml:space="preserve"><value>师徒【{0}】终止与你的师徒关系!</value>
+<comment></comment>
+</data>
+  <data name="_22728" xml:space="preserve"><value>你与【{0}】成功解除师徒关系！</value>
+<comment></comment>
+</data>
+  <data name="_22729" xml:space="preserve"><value>师傅【{0}】终止与你的师徒关系!</value>
+<comment></comment>
+</data>
+  <data name="_22730" xml:space="preserve"><value>因你等级上升与【{0}】成功解除师徒关系！</value>
+<comment></comment>
+</data>
+  <data name="_22731" xml:space="preserve"><value>因徒弟【{0}】等级上升,终止与你的师徒关系!</value>
+<comment></comment>
+</data>
+  <data name="_22732" xml:space="preserve"><value>因你等级上升与【{0}】成功解除师徒关系！</value>
+<comment></comment>
+</data>
+  <data name="_22733" xml:space="preserve"><value>因师傅【{0}】等级上升,终止与你的师徒关系!</value>
+<comment></comment>
+</data>
+  <data name="_22734" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】申请拜你为师，是否同意？&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_22735" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】想收你为徒,是否同意？&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_22736" xml:space="preserve"><value>只能拥有一位师傅</value>
+<comment></comment>
+</data>
+  <data name="_22737" xml:space="preserve"><value>学徒达到上限,不能再收徒</value>
+<comment></comment>
+</data>
+  <data name="_22738" xml:space="preserve"><value>出师等能不足</value>
+<comment></comment>
+</data>
+  <data name="_22739" xml:space="preserve"><value>师傅不存在</value>
+<comment></comment>
+</data>
+  <data name="_22740" xml:space="preserve"><value>G_d000699|G_d000700</value>
+<comment></comment>
+</data>
+  <data name="_22741" xml:space="preserve"><value>包袱满，请先清理包袱再进行该操作</value>
+<comment></comment>
+</data>
+  <data name="_22800" xml:space="preserve"><value>表示没有带领的宠物</value>
+<comment></comment>
+</data>
+  <data name="_22801" xml:space="preserve"><value>表示宠物还没有被孵化</value>
+<comment></comment>
+</data>
+  <data name="_22802" xml:space="preserve"><value>数据更新失败</value>
+<comment></comment>
+</data>
+  <data name="_22803" xml:space="preserve"><value>参数名称不正确</value>
+<comment></comment>
+</data>
+  <data name="_22804" xml:space="preserve"><value>表示升级经验不足</value>
+<comment></comment>
+</data>
+  <data name="_22805" xml:space="preserve"><value>有异常</value>
+<comment></comment>
+</data>
+  <data name="_22806" xml:space="preserve"><value>宠物等级不能超过角色等级5级!</value>
+<comment></comment>
+</data>
+  <data name="_22807" xml:space="preserve"><value>提升资质的道具不存在</value>
+<comment></comment>
+</data>
+  <data name="_22808" xml:space="preserve"><value>进化所需值不足进化失败</value>
+<comment></comment>
+</data>
+  <data name="_22809" xml:space="preserve"><value>宠物槽位置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22809" xml:space="preserve"><value>位置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22810" xml:space="preserve"><value>没有遗忘要求的道具</value>
+<comment></comment>
+</data>
+  <data name="_22811" xml:space="preserve"><value>没有激活要求的道具</value>
+<comment></comment>
+</data>
+  <data name="_22812" xml:space="preserve"><value>非天生不能遗忘</value>
+<comment></comment>
+</data>
+  <data name="_22813" xml:space="preserve"><value>操作成功</value>
+<comment></comment>
+</data>
+  <data name="_22814" xml:space="preserve"><value>宠物技能槽激活完成</value>
+<comment></comment>
+</data>
+  <data name="_22815" xml:space="preserve"><value>非天生技能不能提取</value>
+<comment></comment>
+</data>
+  <data name="_22816" xml:space="preserve"><value>宠物不存在</value>
+<comment></comment>
+</data>
+  <data name="_22817" xml:space="preserve"><value>提高成功率的道具不足</value>
+<comment></comment>
+</data>
+  <data name="_22818" xml:space="preserve"><value>包袱满</value>
+<comment></comment>
+</data>
+  <data name="_22819" xml:space="preserve"><value>提取失败</value>
+<comment></comment>
+</data>
+  <data name="_22820" xml:space="preserve"><value>宠物技能配置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22821" xml:space="preserve"><value>技能类型不适合该宠物</value>
+<comment></comment>
+</data>
+  <data name="_22822" xml:space="preserve"><value>宠物阶级不足</value>
+<comment></comment>
+</data>
+  <data name="_22823" xml:space="preserve"><value>还没有学习该技能</value>
+<comment></comment>
+</data>
+  <data name="_22824" xml:space="preserve"><value>技能槽已经用完或没有开启新的技能槽</value>
+<comment></comment>
+</data>
+  <data name="_22825" xml:space="preserve"><value>已经激活</value>
+<comment></comment>
+</data>
+  <data name="_22826" xml:space="preserve"><value>天生技能不能解除</value>
+<comment></comment>
+</data>
+  <data name="_22827" xml:space="preserve"><value>没有激活所需要的道具</value>
+<comment></comment>
+</data>
+  <data name="_22828" xml:space="preserve"><value>已经进化到最高级</value>
+<comment></comment>
+</data>
+  <data name="_22829" xml:space="preserve"><value>宠物槽没有激活或宠物槽没有空位置，进化失败</value>
+<comment></comment>
+</data>
+  <data name="_22830" xml:space="preserve"><value>技能配置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22831" xml:space="preserve"><value>宠物不能再进化</value>
+<comment></comment>
+</data>
+  <data name="_22832" xml:space="preserve"><value>资质提升失败</value>
+<comment></comment>
+</data>
+  <data name="_22833" xml:space="preserve"><value>喂养所需要的成长果实不足，请先购买成长果实再进行喂养</value>
+<comment></comment>
+</data>
+  <data name="_22834" xml:space="preserve"><value>提升量超过可提升的最大量</value>
+<comment></comment>
+</data>
+  <data name="_22835" xml:space="preserve"><value>已经装配该技能,请先解除或遗忘再重新装配</value>
+<comment></comment>
+</data>
+  <data name="_22836" xml:space="preserve"><value>该项资质目前已达最高等级</value>
+<comment></comment>
+</data>
+  <data name="_22837" xml:space="preserve"><value>技能已经移除</value>
+<comment></comment>
+</data>
+  <data name="_22838" xml:space="preserve"><value>资质提升晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_22839" xml:space="preserve"><value>带领中的宠物不能进行其它操作</value>
+<comment></comment>
+</data>
+  <data name="_22840" xml:space="preserve"><value>添加快捷键成功</value>
+<comment></comment>
+</data>
+  <data name="_22841" xml:space="preserve"><value>所有宠物槽激活完成</value>
+<comment></comment>
+</data>
+  <data name="_22842" xml:space="preserve"><value>宠物名称超长</value>
+<comment></comment>
+</data>
+  <data name="_22843" xml:space="preserve"><value>存在非法字符请重新填写</value>
+<comment></comment>
+</data>
+  <data name="_22844" xml:space="preserve"><value>宠物格子没有被激活拖动无效</value>
+<comment></comment>
+</data>
+  <data name="_22845" xml:space="preserve"><value>进化时获得技能的机率配置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22846" xml:space="preserve"><value>宠物技能不存在</value>
+<comment></comment>
+</data>
+  <data name="_22847" xml:space="preserve"><value>已经存在该技能，进化失败</value>
+<comment></comment>
+</data>
+  <data name="_22848" xml:space="preserve"><value>激活宠物技能槽晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_22849" xml:space="preserve"><value>遗忘技能晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_22850" xml:space="preserve"><value>G_d000002</value>
+<comment></comment>
+</data>
+  <data name="_22851" xml:space="preserve"><value>石币不足，不能操作</value>
+<comment></comment>
+</data>
+  <data name="_22852" xml:space="preserve"><value>200|2000|20000|200000</value>
+<comment></comment>
+</data>
+  <data name="_22853" xml:space="preserve"><value>不能在【{0}】场景{1}</value>
+<comment></comment>
+</data>
+  <data name="_22854" xml:space="preserve"><value>家园已满,不能再放养!</value>
+<comment></comment>
+</data>
+  <data name="_22855" xml:space="preserve"><value>兽栏已满,不能再随身带领!</value>
+<comment></comment>
+</data>
+  <data name="_22856" xml:space="preserve"><value>家园已经扩展到最大，不能再扩展</value>
+<comment></comment>
+</data>
+  <data name="_22857" xml:space="preserve"><value>家园扩展所需晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_22858" xml:space="preserve"><value>照顾时间不够</value>
+<comment></comment>
+</data>
+  <data name="_22859" xml:space="preserve"><value>正在溜的宠物不能放生</value>
+<comment></comment>
+</data>
+  <data name="_22860" xml:space="preserve"><value>不能偷自己的宠</value>
+<comment></comment>
+</data>
+  <data name="_22861" xml:space="preserve"><value>用户不存在</value>
+<comment></comment>
+</data>
+  <data name="_22862" xml:space="preserve"><value>你兽栏已满,请先整理你的兽栏,再来进行偷宠操作</value>
+<comment></comment>
+</data>
+  <data name="_22863" xml:space="preserve"><value>【{0}】宠被【{1}】诱走！</value>
+<comment></comment>
+</data>
+  <data name="_22864" xml:space="preserve"><value>【{0}】受到诱惑！</value>
+<comment></comment>
+</data>
+  <data name="_22865" xml:space="preserve"><value>包袱已满，请先整理你的包袱,再来进行该操作</value>
+<comment></comment>
+</data>
+  <data name="_22866" xml:space="preserve"><value>G_d000015</value>
+<comment></comment>
+</data>
+  <data name="_22867" xml:space="preserve"><value>没有抓捕网</value>
+<comment></comment>
+</data>
+  <data name="_22868" xml:space="preserve"><value>宠物已挂，只能主人重新补血才能复活,照顾才能产生效益</value>
+<comment></comment>
+</data>
+  <data name="_22869" xml:space="preserve"><value>捕宠失败</value>
+<comment></comment>
+</data>
+  <data name="_22870" xml:space="preserve"><value>正在保护期的宠物不能偷取</value>
+<comment></comment>
+</data>
+  <data name="_22871" xml:space="preserve"><value>宠物被掳走</value>
+<comment></comment>
+</data>
+  <data name="_22872" xml:space="preserve"><value>你的宠物【{1}】被玩家【{2}】掳走！很遗憾，所有对【{1}】使用的捕兽网都已经破损，无法再使用!</value>
+<comment></comment>
+</data>
+  <data name="_22873" xml:space="preserve"><value>需要角色等级达到35级才可以对宠物进行掳掠!</value>
+<comment></comment>
+</data>
+  <data name="_22874" xml:space="preserve"><value>您无法掳掠高于自己5级以上的宠物,本次操作没有消耗捕兽网</value>
+<comment></comment>
+</data>
+  <data name="_22875" xml:space="preserve"><value>您的宠物【{0}】被【{1}】掳走！在清理场地的时候，发现了一些还能够继续使用的捕兽网，请在附件中查收！</value>
+<comment></comment>
+</data>
+  <data name="_22900" xml:space="preserve"><value>使用装备或道具成功</value>
+<comment></comment>
+</data>
+  <data name="_22901" xml:space="preserve"><value>表示不存在指定的NPC信息</value>
+<comment></comment>
+</data>
+  <data name="_22902" xml:space="preserve"><value>NPC基本配置有问题</value>
+<comment></comment>
+</data>
+  <data name="_22903" xml:space="preserve"><value>对不起，您的包袱剩余空间不足，请在整理包袱后再次操作</value>
+<comment></comment>
+</data>
+  <data name="_22904" xml:space="preserve"><value>兽栏满</value>
+<comment></comment>
+</data>
+  <data name="_22905" xml:space="preserve"><value>任务包袱满</value>
+<comment></comment>
+</data>
+  <data name="_22906" xml:space="preserve"><value>不存在该物品</value>
+<comment></comment>
+</data>
+  <data name="_22907" xml:space="preserve"><value>不是装备不能进行换装操作</value>
+<comment></comment>
+</data>
+  <data name="_22908" xml:space="preserve"><value>信息配置有问题</value>
+<comment></comment>
+</data>
+  <data name="_22909" xml:space="preserve"><value>包袱有问题</value>
+<comment></comment>
+</data>
+  <data name="_22910" xml:space="preserve"><value>角色等级不足</value>
+<comment></comment>
+</data>
+  <data name="_22911" xml:space="preserve"><value>性别不符合穿戴条件</value>
+<comment></comment>
+</data>
+  <data name="_22912" xml:space="preserve"><value>该角色不能使用</value>
+<comment></comment>
+</data>
+  <data name="_22913" xml:space="preserve"><value>道具不能销毁</value>
+<comment></comment>
+</data>
+  <data name="_22914" xml:space="preserve"><value>余额不足</value>
+<comment></comment>
+</data>
+  <data name="_22915" xml:space="preserve"><value>销售成功</value>
+<comment></comment>
+</data>
+  <data name="_22916" xml:space="preserve"><value>销售的物品所在格子不正确</value>
+<comment></comment>
+</data>
+  <data name="_22917" xml:space="preserve"><value>绑金不足</value>
+<comment></comment>
+</data>
+  <data name="_22918" xml:space="preserve"><value>装备完好</value>
+<comment></comment>
+</data>
+  <data name="_22919" xml:space="preserve"><value>该装备没有穿不能修理</value>
+<comment></comment>
+</data>
+  <data name="_22920" xml:space="preserve"><value>销毁成功</value>
+<comment></comment>
+</data>
+  <data name="_22921" xml:space="preserve"><value>该物品已经过期不能再使用</value>
+<comment></comment>
+</data>
+  <data name="_22923" xml:space="preserve"><value>晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_22923" xml:space="preserve"><value>物品不能出售</value>
+<comment></comment>
+</data>
+  <data name="_22924" xml:space="preserve"><value>奖励不存在</value>
+<comment></comment>
+</data>
+  <data name="_22925" xml:space="preserve"><value>没有到领奖时间</value>
+<comment></comment>
+</data>
+  <data name="_22926" xml:space="preserve"><value>领奖等级不符合</value>
+<comment></comment>
+</data>
+  <data name="_22927" xml:space="preserve"><value>奖励配置不正确</value>
+<comment></comment>
+</data>
+  <data name="_22928" xml:space="preserve"><value>该奖励已经领取</value>
+<comment></comment>
+</data>
+  <data name="_22929" xml:space="preserve"><value>该奖励不需要选择</value>
+<comment></comment>
+</data>
+  <data name="_22930" xml:space="preserve"><value>选择奖励不存在</value>
+<comment></comment>
+</data>
+  <data name="_22931" xml:space="preserve"><value>可得到宠物经验,你没有带领的宠物，不能领取该奖励!</value>
+<comment></comment>
+</data>
+  <data name="_22932" xml:space="preserve"><value>领取奖励成功</value>
+<comment></comment>
+</data>
+  <data name="_22933" xml:space="preserve"><value>买卖NPC交易货币类型不正确</value>
+<comment></comment>
+</data>
+  <data name="_22934" xml:space="preserve"><value>存在过期物品,不能出售</value>
+<comment></comment>
+</data>
+  <data name="_23000" xml:space="preserve"><value>邮件发送成功</value>
+<comment></comment>
+</data>
+  <data name="_23001" xml:space="preserve"><value>得到新邮件</value>
+<comment></comment>
+</data>
+  <data name="_23002" xml:space="preserve"><value>有异常</value>
+<comment></comment>
+</data>
+  <data name="_23003" xml:space="preserve"><value>邮件不存在</value>
+<comment></comment>
+</data>
+  <data name="_23004" xml:space="preserve"><value>接收人不正确</value>
+<comment></comment>
+</data>
+  <data name="_23005" xml:space="preserve"><value>不存在</value>
+<comment></comment>
+</data>
+  <data name="_23006" xml:space="preserve"><value>宠物包袱已满</value>
+<comment></comment>
+</data>
+  <data name="_23007" xml:space="preserve"><value>对不起，您的包袱剩余空间不足，请在整理包袱后再次操作</value>
+<comment></comment>
+</data>
+  <data name="_23008" xml:space="preserve"><value>不能发送给自己</value>
+<comment></comment>
+</data>
+  <data name="_23009" xml:space="preserve"><value>游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_23010" xml:space="preserve"><value>包袱类型不正确</value>
+<comment></comment>
+</data>
+  <data name="_23011" xml:space="preserve"><value>你发送的物品不存在！</value>
+<comment></comment>
+</data>
+  <data name="_23012" xml:space="preserve"><value>晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_23013" xml:space="preserve"><value>退信成功</value>
+<comment></comment>
+</data>
+  <data name="_23014" xml:space="preserve"><value>非附件不能退信</value>
+<comment></comment>
+</data>
+  <data name="_23015" xml:space="preserve"><value>系统邮件不能退信</value>
+<comment></comment>
+</data>
+  <data name="_23016" xml:space="preserve"><value>标题长度不能超过20个字符</value>
+<comment></comment>
+</data>
+  <data name="_23017" xml:space="preserve"><value>邮件内容不能超过300个字会符</value>
+<comment></comment>
+</data>
+  <data name="_23018" xml:space="preserve"><value>欢迎来到《石器宝贝》的世界|系统|亲爱的【{0}】您好，欢迎您来到《石器宝贝》的世界！在这里您会体验到各种前所未有的奇妙旅程！那么，带上您的小伙伴上路吧！</value>
+<comment></comment>
+</data>
+  <data name="_23019" xml:space="preserve"><value>您想删除的邮件中存在附件，不允许删除</value>
+<comment></comment>
+</data>
+  <data name="_23020" xml:space="preserve"><value>收件人不存在</value>
+<comment></comment>
+</data>
+  <data name="_23100" xml:space="preserve"><value>家族创建成功</value>
+<comment></comment>
+</data>
+  <data name="_23101" xml:space="preserve"><value>家族名称重名请重新输入</value>
+<comment></comment>
+</data>
+  <data name="_23102" xml:space="preserve"><value>存在非法字符请重新填写</value>
+<comment></comment>
+</data>
+  <data name="_23103" xml:space="preserve"><value>创建家族等级不足</value>
+<comment></comment>
+</data>
+  <data name="_23104" xml:space="preserve"><value>家族名称不能超过指定长度</value>
+<comment></comment>
+</data>
+  <data name="_23105" xml:space="preserve"><value>创建家族游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_23106" xml:space="preserve"><value>已经加入家族</value>
+<comment></comment>
+</data>
+  <data name="_23107" xml:space="preserve"><value>时间格式不正确</value>
+<comment></comment>
+</data>
+  <data name="_23108" xml:space="preserve"><value>正在冻结期不能操作,【{0}】之后再操作!</value>
+<comment></comment>
+</data>
+  <data name="_23109" xml:space="preserve"><value>已在家族中，不可申请加入多个家族</value>
+<comment></comment>
+</data>
+  <data name="_23110" xml:space="preserve"><value>家族信息不正确</value>
+<comment></comment>
+</data>
+  <data name="_23111" xml:space="preserve"><value>申请家族成功</value>
+<comment></comment>
+</data>
+  <data name="_23112" xml:space="preserve"><value>已经提出入族申请</value>
+<comment></comment>
+</data>
+  <data name="_23113" xml:space="preserve"><value>家族不存在</value>
+<comment></comment>
+</data>
+  <data name="_23114" xml:space="preserve"><value>族长不在线</value>
+<comment></comment>
+</data>
+  <data name="_23115" xml:space="preserve"><value>申请入族回复不正确</value>
+<comment></comment>
+</data>
+  <data name="_23116" xml:space="preserve"><value>没有权限</value>
+<comment></comment>
+</data>
+  <data name="_23117" xml:space="preserve"><value>入族成功</value>
+<comment></comment>
+</data>
+  <data name="_23118" xml:space="preserve"><value>没有入族</value>
+<comment></comment>
+</data>
+  <data name="_23119" xml:space="preserve"><value>更新公告成功</value>
+<comment></comment>
+</data>
+  <data name="_23120" xml:space="preserve"><value>族长不能退出</value>
+<comment></comment>
+</data>
+  <data name="_23121" xml:space="preserve"><value>退出成功</value>
+<comment></comment>
+</data>
+  <data name="_23122" xml:space="preserve"><value>不能开除族长</value>
+<comment></comment>
+</data>
+  <data name="_23123" xml:space="preserve"><value>不能开除自己</value>
+<comment></comment>
+</data>
+  <data name="_23124" xml:space="preserve"><value>不能任命自己</value>
+<comment></comment>
+</data>
+  <data name="_23125" xml:space="preserve"><value>非族员不能任员为副族长</value>
+<comment></comment>
+</data>
+  <data name="_23126" xml:space="preserve"><value>副族长已经达到上限，不能再任命</value>
+<comment></comment>
+</data>
+  <data name="_23127" xml:space="preserve"><value>任命副族长成功</value>
+<comment></comment>
+</data>
+  <data name="_23128" xml:space="preserve"><value>不能撤消自己</value>
+<comment></comment>
+</data>
+  <data name="_23129" xml:space="preserve"><value>非副族长撤消无效</value>
+<comment></comment>
+</data>
+  <data name="_23130" xml:space="preserve"><value>撤消成功</value>
+<comment></comment>
+</data>
+  <data name="_23131" xml:space="preserve"><value>不能移交给自己</value>
+<comment></comment>
+</data>
+  <data name="_23132" xml:space="preserve"><value>移交成员不正确</value>
+<comment></comment>
+</data>
+  <data name="_23133" xml:space="preserve"><value>解散成功</value>
+<comment></comment>
+</data>
+  <data name="_23134" xml:space="preserve"><value>入族申请已经达到上限</value>
+<comment></comment>
+</data>
+  <data name="_23135" xml:space="preserve"><value>家族人数达到上限</value>
+<comment></comment>
+</data>
+  <data name="_23136" xml:space="preserve"><value>邀请入族成功</value>
+<comment></comment>
+</data>
+  <data name="_23137" xml:space="preserve"><value>邀请信息不正确</value>
+<comment></comment>
+</data>
+  <data name="_23138" xml:space="preserve"><value>已经邀请了</value>
+<comment></comment>
+</data>
+  <data name="_23139" xml:space="preserve"><value>已经达到技能上限不能再升级</value>
+<comment></comment>
+</data>
+  <data name="_23140" xml:space="preserve"><value>当前贡献值不足</value>
+<comment></comment>
+</data>
+  <data name="_23141" xml:space="preserve"><value>家族等级不足不能升级该技能</value>
+<comment></comment>
+</data>
+  <data name="_23142" xml:space="preserve"><value>学习家族技能成功</value>
+<comment></comment>
+</data>
+  <data name="_23143" xml:space="preserve"><value>申请入族被拒绝</value>
+<comment></comment>
+</data>
+  <data name="_23144" xml:space="preserve"><value>创建家族成功</value>
+<comment></comment>
+</data>
+  <data name="_23145" xml:space="preserve"><value>公告长度不能超过100</value>
+<comment></comment>
+</data>
+  <data name="_23146" xml:space="preserve"><value>重名王|您成功创建家族【{0}】|您成功创建家族【{0}】,并成为该家族族长</value>
+<comment></comment>
+</data>
+  <data name="_23147" xml:space="preserve"><value>【{0}】申请加入【{1}】家族</value>
+<comment></comment>
+</data>
+  <data name="_23148" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】成功加入家族【{1}】&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23149" xml:space="preserve"><value>【{0}】邀请你加入家族【{1}】</value>
+<comment></comment>
+</data>
+  <data name="_23150" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】成功加入家族【{1}】&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23151" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】退出家族【{1}】&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23152" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】被开除出【{1}】家族&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23153" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】被任命为【{1}】家族副族长&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23154" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】被撤消【{1}】家族副族长&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23155" xml:space="preserve"><value>【{0}】解散【{1}】家族</value>
+<comment></comment>
+</data>
+  <data name="_23156" xml:space="preserve"><value>&lt;f color='ff3300'&gt;【{0}】移交【{1}】家族族长给【{2}】&lt;/f&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23157" xml:space="preserve"><value>你被【{0}】开除出【{1}】家族</value>
+<comment></comment>
+</data>
+  <data name="_23200" xml:space="preserve"><value>正在孵化的宠物</value>
+<comment></comment>
+</data>
+  <data name="_23201" xml:space="preserve"><value>宠物信息有误</value>
+<comment></comment>
+</data>
+  <data name="_23202" xml:space="preserve"><value>宠物正在进行其它工作</value>
+<comment></comment>
+</data>
+  <data name="_23203" xml:space="preserve"><value>孵化游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_23204" xml:space="preserve"><value>孵化已经完成</value>
+<comment></comment>
+</data>
+  <data name="_23205" xml:space="preserve"><value>不存在驯化的宠物</value>
+<comment></comment>
+</data>
+  <data name="_23206" xml:space="preserve"><value>已经终止孵化</value>
+<comment></comment>
+</data>
+  <data name="_23207" xml:space="preserve"><value>宠物包袱满，请先清理包袱再进行该操作</value>
+<comment></comment>
+</data>
+  <data name="_23208" xml:space="preserve"><value>采集时游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_23209" xml:space="preserve"><value>参数不下确</value>
+<comment></comment>
+</data>
+  <data name="_23210" xml:space="preserve"><value>不存在家园</value>
+<comment></comment>
+</data>
+  <data name="_23211" xml:space="preserve"><value>宠物数量达到上限</value>
+<comment></comment>
+</data>
+  <data name="_23212" xml:space="preserve"><value>表示宠物没有被孵化</value>
+<comment></comment>
+</data>
+  <data name="_23213" xml:space="preserve"><value>进入成功</value>
+<comment></comment>
+</data>
+  <data name="_23214" xml:space="preserve"><value>请先放入宠物</value>
+<comment></comment>
+</data>
+  <data name="_23215" xml:space="preserve"><value>正在采集</value>
+<comment></comment>
+</data>
+  <data name="_23216" xml:space="preserve"><value>停止生产成功</value>
+<comment></comment>
+</data>
+  <data name="_23217" xml:space="preserve"><value>道具数量不足</value>
+<comment></comment>
+</data>
+  <data name="_23218" xml:space="preserve"><value>配置有问题</value>
+<comment></comment>
+</data>
+  <data name="_23219" xml:space="preserve"><value>宠物家政信息不满足</value>
+<comment></comment>
+</data>
+  <data name="_23220" xml:space="preserve"><value>开始生产</value>
+<comment></comment>
+</data>
+  <data name="_23221" xml:space="preserve"><value>生产还没有完成</value>
+<comment></comment>
+</data>
+  <data name="_23222" xml:space="preserve"><value>孵化停止成功</value>
+<comment></comment>
+</data>
+  <data name="_23223" xml:space="preserve"><value>没有生产</value>
+<comment></comment>
+</data>
+  <data name="_23224" xml:space="preserve"><value>对不起，您的包袱剩余空间不足，请在整理包袱后再次操作</value>
+<comment></comment>
+</data>
+  <data name="_23225" xml:space="preserve"><value>收集成功</value>
+<comment></comment>
+</data>
+  <data name="_23226" xml:space="preserve"><value>已经存在宠物</value>
+<comment></comment>
+</data>
+  <data name="_23227" xml:space="preserve"><value>取出宠物成功</value>
+<comment></comment>
+</data>
+  <data name="_23228" xml:space="preserve"><value>正在生产中不能移除宠物</value>
+<comment></comment>
+</data>
+  <data name="_23229" xml:space="preserve"><value>中止成功</value>
+<comment></comment>
+</data>
+  <data name="_23230" xml:space="preserve"><value>采集已经完成不能中止</value>
+<comment></comment>
+</data>
+  <data name="_23231" xml:space="preserve"><value>没有采集中止无效</value>
+<comment></comment>
+</data>
+  <data name="_23232" xml:space="preserve"><value>正在生产其它物品</value>
+<comment></comment>
+</data>
+  <data name="_23233" xml:space="preserve"><value>宠物正在战斗中</value>
+<comment></comment>
+</data>
+  <data name="_23234" xml:space="preserve"><value>炼金室</value>
+<comment></comment>
+</data>
+  <data name="_23235" xml:space="preserve"><value>书房</value>
+<comment></comment>
+</data>
+  <data name="_23236" xml:space="preserve"><value>加工房</value>
+<comment></comment>
+</data>
+  <data name="_23237" xml:space="preserve"><value>木工房</value>
+<comment></comment>
+</data>
+  <data name="_23238" xml:space="preserve"><value>果园</value>
+<comment></comment>
+</data>
+  <data name="_23300" xml:space="preserve"><value>申请交易成功</value>
+<comment></comment>
+</data>
+  <data name="_23301" xml:space="preserve"><value>交易过程中，请放入要求交易的物品</value>
+<comment></comment>
+</data>
+  <data name="_23302" xml:space="preserve"><value>对放已经下线</value>
+<comment></comment>
+</data>
+  <data name="_23303" xml:space="preserve"><value>正在给其它人进行交易</value>
+<comment></comment>
+</data>
+  <data name="_23304" xml:space="preserve"><value>交易被拒绝</value>
+<comment></comment>
+</data>
+  <data name="_23305" xml:space="preserve"><value>回复信息有误</value>
+<comment></comment>
+</data>
+  <data name="_23306" xml:space="preserve"><value>停止交易</value>
+<comment></comment>
+</data>
+  <data name="_23307" xml:space="preserve"><value>第一个确定</value>
+<comment></comment>
+</data>
+  <data name="_23308" xml:space="preserve"><value>交易成功</value>
+<comment></comment>
+</data>
+  <data name="_23309" xml:space="preserve"><value>已经回复</value>
+<comment></comment>
+</data>
+  <data name="_23310" xml:space="preserve"><value>对不起，您的包袱剩余空间不足，请在整理包袱后再次操作</value>
+<comment></comment>
+</data>
+  <data name="_23311" xml:space="preserve"><value>游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_23312" xml:space="preserve"><value>晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_23313" xml:space="preserve"><value>上传物品与包袱中物品不相符</value>
+<comment></comment>
+</data>
+  <data name="_23314" xml:space="preserve"><value>绑定物品不能交易</value>
+<comment></comment>
+</data>
+  <data name="_23315" xml:space="preserve"><value>包袱中可交易的物品与你想交易的物品不符</value>
+<comment></comment>
+</data>
+  <data name="_23316" xml:space="preserve"><value>请先申请交易或者交易已经完成</value>
+<comment></comment>
+</data>
+  <data name="_23317" xml:space="preserve"><value>交易物品不能大于对应格子中物品的数量</value>
+<comment></comment>
+</data>
+  <data name="_23318" xml:space="preserve"><value>您的包袱空间不足，请整理包袱后再进行交易</value>
+<comment></comment>
+</data>
+  <data name="_23319" xml:space="preserve"><value>对方包袱空间不足,请对方整理包袱后再进行交易</value>
+<comment></comment>
+</data>
+  <data name="_23320" xml:space="preserve"><value>对方正在战斗中不能与你进行交易</value>
+<comment></comment>
+</data>
+  <data name="_23321" xml:space="preserve"><value>自己正在战斗中交易无效</value>
+<comment></comment>
+</data>
+  <data name="_23400" xml:space="preserve"><value>出售操作成功</value>
+<comment></comment>
+</data>
+  <data name="_23401" xml:space="preserve"><value>时限不正确</value>
+<comment></comment>
+</data>
+  <data name="_23402" xml:space="preserve"><value>余额不足交保管费</value>
+<comment></comment>
+</data>
+  <data name="_23403" xml:space="preserve"><value>包袱类型不正确</value>
+<comment></comment>
+</data>
+  <data name="_23404" xml:space="preserve"><value>对应位置道具不符</value>
+<comment></comment>
+</data>
+  <data name="_23405" xml:space="preserve"><value>与对应位置道具不符</value>
+<comment></comment>
+</data>
+  <data name="_23406" xml:space="preserve"><value>起价太底</value>
+<comment></comment>
+</data>
+  <data name="_23407" xml:space="preserve"><value>不能出售绑定道具</value>
+<comment></comment>
+</data>
+  <data name="_23408" xml:space="preserve"><value>游戏币不足</value>
+<comment></comment>
+</data>
+  <data name="_23409" xml:space="preserve"><value>竞拍的物品不存在</value>
+<comment></comment>
+</data>
+  <data name="_23410" xml:space="preserve"><value>竞拍物品已经过期</value>
+<comment></comment>
+</data>
+  <data name="_23411" xml:space="preserve"><value>竞拍价格底于前者,竞拍失败</value>
+<comment></comment>
+</data>
+  <data name="_23412" xml:space="preserve"><value>竞拍成功</value>
+<comment></comment>
+</data>
+  <data name="_23413" xml:space="preserve"><value>购买成功</value>
+<comment></comment>
+</data>
+  <data name="_23414" xml:space="preserve"><value>已经销售</value>
+<comment></comment>
+</data>
+  <data name="_23415" xml:space="preserve"><value>不能一口价</value>
+<comment></comment>
+</data>
+  <data name="_23416" xml:space="preserve"><value>竞价不能超过一口价</value>
+<comment></comment>
+</data>
+  <data name="_23417" xml:space="preserve"><value>竞价不能小于竞标价</value>
+<comment></comment>
+</data>
+  <data name="_23500" xml:space="preserve"><value>已经最大量不能再扩展</value>
+<comment></comment>
+</data>
+  <data name="_23501" xml:space="preserve"><value>扩展晶币不足</value>
+<comment></comment>
+</data>
+  <data name="_23502" xml:space="preserve"><value>扩展成功</value>
+<comment></comment>
+</data>
+  <data name="_23503" xml:space="preserve"><value>起始格子数据不正确</value>
+<comment></comment>
+</data>
+  <data name="_23504" xml:space="preserve"><value>起始格子数量小于相折分数量</value>
+<comment></comment>
+</data>
+  <data name="_23505" xml:space="preserve"><value>不能扡入该目标包袱</value>
+<comment></comment>
+</data>
+  <data name="_23506" xml:space="preserve"><value>不能扡入相同格子上</value>
+<comment></comment>
+</data>
+  <data name="_23507" xml:space="preserve"><value>大于堆叠数</value>
+<comment></comment>
+</data>
+  <data name="_23508" xml:space="preserve"><value>对不起，您的包袱剩余空间不足，请在整理包袱后再次操作</value>
+<comment></comment>
+</data>
+  <data name="_23809" xml:space="preserve"><value>任务道具不能放入仓库中</value>
+<comment></comment>
+</data>
+  <data name="_23600" xml:space="preserve"><value>exit,online,freeze,coin,score,run,exp,taskremove,taskact,taskid,goodsid,getgood,goodremove,petexp,skill,pskill,notice,scene,exitall</value>
+<comment></comment>
+</data>
+  <data name="_23601" xml:space="preserve"><value>角色【{0}】不存在</value>
+<comment></comment>
+</data>
+  <data name="_23602" xml:space="preserve"><value>【{0}】成功被踢出</value>
+<comment></comment>
+</data>
+  <data name="_23603" xml:space="preserve"><value>为【{0}】添加经验成功</value>
+<comment></comment>
+</data>
+  <data name="_23604" xml:space="preserve"><value>&lt;font color='#572408' size='14' &gt;{0}&lt;/font&gt;</value>
+<comment></comment>
+</data>
+  <data name="_23700" xml:space="preserve"><value>5|30</value>
+<comment></comment>
+</data>
+  <data name="_23701" xml:space="preserve"><value>G_d000545</value>
+<comment></comment>
+</data>
+  <data name="_23702" xml:space="preserve"><value>答题等级不足</value>
+<comment></comment>
+</data>
+  <data name="_23703" xml:space="preserve"><value>道具数量不足</value>
+<comment></comment>
+</data>
+  <data name="_23704" xml:space="preserve"><value>题目不存在</value>
+<comment></comment>
+</data>
+  <data name="_23705" xml:space="preserve"><value>答题达到当前最大数，可使用道具增加!</value>
+<comment></comment>
+</data>
+  <data name="_23706" xml:space="preserve"><value>已经领奖</value>
+<comment></comment>
+</data>
+  <data name="_23800" xml:space="preserve"><value>【{0}】成功击败对手,并得到对手的凭证;【{0}】已经收集{1}个守护凭证!</value>
+<comment></comment>
+</data>
+  <data name="_23801" xml:space="preserve"><value>你在【守护战争】中被玩家击败，丢失了所有【守护凭证】</value>
+<comment></comment>
+</data>
+  <data name="_23802" xml:space="preserve"><value>【守护战争】现在开始，请大家进入参加</value>
+<comment></comment>
+</data>
+  <data name="_23803" xml:space="preserve"><value>守护战争中失败，守护凭证丢失</value>
+<comment></comment>
+</data>
+  <data name="_30000" xml:space="preserve"><value>【{0}】在夺宝奇兵活动中累计胜利{1}场！</value>
+<comment></comment>
+</data>
+  <data name="_30001" xml:space="preserve"><value>【{0}】在【{1}】被打败了！！【{2}】拥有了元素光环！</value>
+<comment></comment>
+</data>
+  <data name="_30002" xml:space="preserve"><value>【{0}】竟然被怪物杀死！请大家寻找四种元素重新合成元素光环！</value>
+<comment></comment>
+</data>
+  <data name="_30003" xml:space="preserve"><value>【{0}】已经将元素光环交给阿菠萝！获得夺宝奇兵奖励！</value>
+<comment></comment>
+</data>
+  <data name="_30004" xml:space="preserve"><value>请集齐四种元素再来兑换光环</value>
+<comment></comment>
+</data>
+  <data name="_30005" xml:space="preserve"><value>【{0}】合成了元素光环！快向他挑战！这是对光环的磨砺！</value>
+<comment></comment>
+</data>
+  <data name="_30006" xml:space="preserve"><value>你来晚了,光环已被{0}取走</value>
+<comment></comment>
+</data>
+  <data name="_30007" xml:space="preserve"><value>【{0}】竟然逃跑了！请大家寻找四种元素重新合成元素光环！</value>
+<comment></comment>
+</data>
+  <data name="_30008" xml:space="preserve"><value>【{0}】带着元素光环来到了【{1}】，他和光环都在期待挑战！</value>
+<comment></comment>
+</data>
+  <data name="_30009" xml:space="preserve"><value>参加【夺宝奇兵】人数：{0}人！</value>
+<comment></comment>
+</data>
+
+</root>

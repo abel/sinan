@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09C10726-C3A6-4733-8E10-BE9048EF67F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sinan.ArenaModule</RootNamespace>
+    <AssemblyName>Sinan.ArenaModule</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;mono</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'mono|AnyCPU'">
+    <OutputPath>bin\mono\</OutputPath>
+    <DefineConstants>TRACE;mono</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Sinan.ArenaModule.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\GlobalAssemblyInfo.cs">
+      <Link>Properties\GlobalAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="ArenaMediator.cs" />
+    <Compile Include="Award\ArenaAward.cs" />
+    <Compile Include="Award\FightValueTimer.cs" />
+    <Compile Include="Business\Arena.cs" />
+    <Compile Include="Business\ArenaSkill.cs" />
+    <Compile Include="Business\ArenaBase.cs" />
+    <Compile Include="Business\ArenaBusiness.cs" />
+    <Compile Include="Business\ArenaConfig.cs" />
+    <Compile Include="Business\ArenaGoods.cs" />
+    <Compile Include="Business\ArenaInfo.cs" />
+    <Compile Include="Business\ArenaScene.cs" />
+    <Compile Include="Detail\ArenaDetail.cs" />
+    <Compile Include="Detail\PetDetail.cs" />
+    <Compile Include="Detail\PetFightDetail.cs" />
+    <Compile Include="Detail\SettleDetail.cs" />
+    <Compile Include="Fight\ArenaFight.cs" />
+    <Compile Include="Fight\FightBase.cs" />
+    <Compile Include="Fight\FightType.cs" />
+    <Compile Include="Fight\Settle.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Bson\Bson.csproj">
+      <Project>{0E9A3A2A-49CD-4F6C-847C-DC79B4B65CE6}</Project>
+      <Name>Bson</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common.csproj">
+      <Project>{8129F8DD-03B9-4BED-AA2A-BE05E454C8B0}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Driver\Driver.csproj">
+      <Project>{AE5166CD-76B0-4911-BD80-CED9521F37A1}</Project>
+      <Name>Driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\FastConfig\FastConfig.csproj">
+      <Project>{6763FB91-F400-4824-9870-8B4368E2F7D0}</Project>
+      <Name>FastConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\FastSocket\FastSocket.csproj">
+      <Project>{98C2F10A-9D59-4174-98EA-5C39ED768D11}</Project>
+      <Name>FastSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Framework\Framework.csproj">
+      <Project>{A4DF0F28-472A-4C9A-990A-0D0222B39A8A}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FrontServer\FrontServer.csproj">
+      <Project>{D44861B2-E120-4E02-B6A7-1189F58C7231}</Project>
+      <Name>FrontServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Resources\GameConfig\GameConfig.csproj">
+      <Project>{0A4050B5-B486-48A0-B578-685A2213DA4B}</Project>
+      <Name>GameConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Resources\GameModule\GameModule.csproj">
+      <Project>{87EF2CF3-71EE-42F5-B758-022458117FF5}</Project>
+      <Name>GameModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy $(TargetDir)$(TargetName).* $(SolutionDir)FrontServer\$(OutDir)Plugins\ /Q /R /Y
+xcopy $(TargetDir)$(TargetName).* $(SolutionDir)Service\47BabyService\$(OutDir)Plugins\ /Q /R /Y</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

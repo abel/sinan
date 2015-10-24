@@ -1,0 +1,38 @@
+{
+"SID":        6,              //服务器ID
+"IP":         "0.0.0.0",      //IP
+"Ports":      8001,           //游戏服务监听端口
+"GMPort":     8002,           //GM工具监听端口
+"ShipIP":     "127.0.0.1",    //发货服务绑定的IP(最好为内网IP)
+"ShipPort":   8003,           //发货服务监听端口
+"CheckSig":   false,          //发货服务是否验证签名
+"MaxClient":  1000,           //游戏最多可以连接的客户端数量
+"MaxWaitSend": 64,            //客户端最多可以延迟接收的业务包.
+
+"DESKey":     "75395125",    
+"MD5Key":     "&^fdf&**sdf",
+"ReportSIP":  "127.0.0.1",    //服务服务器的IP地址
+"AdminGM":      true,         //启用高级GM能力
+"MaxLevel":     100,          //角色的最大等级控制
+
+"ForceGC":      false,        //在ReportPeriod指定的时间内进行GC
+"ReportPeriod": 60,           //报告在线情况的间隔时间(秒)
+"SqlReport": "server=YHC-PC\\SQLEXPRESS;database=game2;uid=sa;pwd=sa",
+"SqlReportTable": "A06",      //报告在线情况时所存的表
+
+"IsMall":false,				  //商诚是否通过GM上下架物品	
+
+"FastLogin": true,            //启用快速登录,测试用
+"OpenUser": true,             //新用户是否可以登录
+"OpenRole": true,             //是否可以创建新角色
+
+"profile":    true,           //是否记录慢操作
+"slowms":     100,            //要记录慢操作最小毫秒
+
+"player":   "mongodb://192.168.100.40:27017/47baby_hwj?safe=true",   //角色数据库
+"gamebase": "mongodb://192.168.100.40:27017/game2?safe=true",        //word数据库
+"gameLog":  "mongodb://192.168.100.40:27017/47baby_log?safe=true",   //日志数据训
+
+"buyHost": "119.147.19.43",                //交易主机.生机Token,用于绑定到角色
+"buyUri":  "/v3/pay/buy_goods"             //交易页面
+}

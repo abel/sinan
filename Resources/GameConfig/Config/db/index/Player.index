@@ -1,0 +1,9 @@
+{
+"_name_":{"Name":1,"unique":true},
+"_levels_":{"Level":-1,"S":1},
+"_dian_":{"Dian": -1},
+"_role_":{"RoleID":1},
+"_familyname_":{"FamilyName":1},
+"_state":{"State":1},
+"_userid_":{"UserID":1}
+}

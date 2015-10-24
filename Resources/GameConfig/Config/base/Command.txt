@@ -1,0 +1,1462 @@
+// 握手
+99:  hand
+100: handR
+
+// 行走
+101: walkTo,10
+102: g.walkToR
+// 心跳测试
+103: t
+104: tR
+105: err
+
+**********(10xx)ActivityCommand********************
+// 每日签到
+1001: activitySign, 100
+1002: v.activitySignR
+
+// 领奖
+1003: activityAward,100
+1004: v.activityAwardR
+
+// 更新活跃度
+1005: checkActivity,100
+
+// 守护战争结束
+1006: v.fightProEndR
+
+// 守护战争非战斗得到经验
+1007: v.proExpR
+
+// 守护PK中失败
+1008: v.pkLoseR
+
+// 得到守护凭证通知
+1009: v.getDefendCardR
+
+// 开宝箱
+1010: v.openChestR
+
+// 签到奖励领取
+1011: signAward
+1012: v.signAwardR
+
+// 登录奖励
+1013: loginAward
+1014: v.loginAwardR
+
+// VIP每日奖励
+1015: vIPDayAward
+1016: v.vIPDayAwardR
+
+//VIP兑换服务
+1017: vipExchange
+1018: v.vipExchangeR
+
+//在线奖励
+1019:onlineAward,100
+1020:v.onlineAwardR
+
+******************************************************
+
+
+**********(11xx)ArenaCommand**************************
+// 创建竞技场
+1101: createArena ,100
+1102: n.createArenaR
+
+// 得到竞技场列表
+1103: getArenaList ,100
+1104: n.getArenaListR
+
+// 进入竞技场
+1105: arenaInto ,100
+1106: n.arenaIntoR
+
+// 取得到可以参加竞技场的宠物列表
+1107: petListArena ,100
+1108: n.petListArenaR
+
+// 宠物放入竞技场
+1109: petInArena ,100
+1110: n.petInArenaR
+
+// 宠物退出竞技场
+1111: petOutArena ,100
+1112: n.petOutArenaR
+
+// 选择宠物技能
+1113: selectSkill ,100
+1114: n.selectSkillR
+
+// 竞技场物品使用
+1115: arenaGoods ,100
+1116: n.arenaGoodsR
+
+// 竞技场宠物行走
+1117: arenaWalk ,100
+1118: n.arenaWalkR
+
+// 竞技场开始
+1119: n.arenaStartR
+
+// 竞技场结束
+1120: n.arenaEndR
+
+// 得到分组名称列表
+1121: arenaGroupName,100
+1122: n.arenaGroupNameR
+
+// 角色退出竞技场
+1123: playerOutArena ,100
+1124: n.playerOutArenaR
+
+// 战斗中
+1125: n.arenaFightR
+
+// 得到场景信息
+1126: sceneBase ,100
+1127: n.sceneBaseR
+
+// 得到竞技场进入人数与参战人数
+1128: arenaUserCount ,100
+1129: n.arenaUserCountR
+
+// 宠物战死
+1130: n.arenaPetOverR
+******************************************************
+
+
+**********(12XX)AuctionCommand************************
+// 得到出售和竞标列表
+1201: auctionSellOrBidList ,100
+1202: o.auctionSellOrBidListR
+
+// 出售
+1203: auctionSell ,100
+1204: o.auctionSellR
+
+// 得到购买道具所有列表
+1205: auctionBuyList ,100
+1206: o.auctionBuyListR
+
+// 购买一口价
+1207: auctionBuy ,100
+1208: o.auctionBuyR
+
+// 竞标
+1209: auctionBid ,100
+1210: o.auctionBidR
+
+// 取消拍卖
+1211: exitAuction ,100
+1212: o.exitAuctionR
+******************************************************
+
+
+**********(13XX)BurdenCommand*************************
+// 得到仓库或包袱列表
+1301: burdenList ,100
+1302: o.burdenListR
+
+// 包袱或仓库更新
+1303: updatePackage ,100
+1304: o.updatePackageR
+
+
+// 取得指定仓库信息
+1305: burdenInfo ,100
+1306: o.burdenInfoR
+
+
+// 包袱或仓库扩展操作
+1307: burdenExtend,100
+1308: o.burdenExtendR
+
+// 整理包袱
+1309: burdenFinishing ,5000
+1310: o.burdenFinishingR
+
+// 扡动
+1311: burdenDrag ,100
+1312: o.burdenDragR
+
+// 拆分
+1313: burdenSplit ,100
+1314: o.burdenSplitR
+
+// 物品从仓库取出
+1315: burdenOut ,100
+1316: o.burdenOutR
+
+//更新显示编号
+1317:saveShowInfo
+******************************************************
+
+**********(14XX)ClientCommand*************************
+//1401: ClientToServer
+//1402: ServerToClient
+
+// 网络连接被断开.
+//1403: UserDisconnected
+//1404: UserConnected
+
+// 获取所有物品信息
+1405: getGoods ,0
+1406: o.getGoodsR
+
+// 获取所有职业信息
+1407: getRoles ,100
+1408: a.getRolesR
+
+// 获取用户详细信息
+1409: getPlayerDetail ,1000
+1410: a.getPlayerDetailR
+
+// 更新玩家属性
+1411: a.updateActorR
+
+// 丢弃物品
+1412: discardGoods ,100
+1413: o.discardGoodsR
+
+// 玩家请求进入场景
+1414: intoScene ,2000
+1415: g.intoSceneR
+
+// 成功进入场景
+//1416: IntoSceneSuccess
+1417: g.morePlayersR
+
+// 查找传送阵路径
+1418: findPinPath ,100
+1419: g.findPinPathR
+
+// 玩家退出场景
+1420: exitScene ,100
+1421: g.exitSceneR
+
+// 通知客户端玩家退出游戏
+1422: a.playerExitR
+
+// 其它玩家进入场景
+1423: g.otherIntoSceneR
+
+// 开箱
+1426: openBox ,1000
+1427: g.openBoxR
+
+// 更新箱子
+1428: g.refreshBoxR
+
+// 更新APC
+1429: g.refreshApcR
+
+// APC状态更改
+1430: g.killApcR
+
+// 使用技能
+1431: useSkill,100
+
+// 更新热键
+1432: updateHotKeys ,1000
+1433: a.updateHotKeysR
+
+// 领悟新技能
+1434: a.getNewSkillR
+
+// 发送消息给所有在线的玩家
+1435: sendMsgToAllPlayer ,2000
+1436: m.sendMsgToAllPlayerR
+
+// 推送消息给玩家
+1437: m.sendActivtyR
+
+// 同场景瞬间移动
+1438: "g.fastToR"
+
+// 地图直接传送
+1439: "mapTrans"
+1440: "g.mapTransR"
+
+// 获取用户详细信息(可以指定获取哪部分)
+1441:"getPlayerDetail2"
+1442:"a.getPlayerDetail2R"
+
+******************************************************
+
+**********(15XX)DealCommand***************************
+// 申请交易
+1501: dealApply,100
+1502: o.dealApplyR
+
+// 申请交易回复
+1503: dealApplyBack,100
+1504: o.dealApplyBackR
+
+// 锁定交易
+1505: lockDeal,100
+1506: o.lockDealR
+
+// 确定交易
+1507: enterDeal,100
+1508: o.enterDealR
+
+// 退出交易
+1509: exitDeal,100
+1510: o.exitDealR
+******************************************************
+
+
+**********(16XX)EffortCommand 成就系统****************
+// 获取所有成就信息
+1601: getEfforts,100
+1602: t.getEffortsR
+
+// 获取单个成就信息
+1603: getEffort,100
+1604: t.getEffortR
+
+// 达成成就
+1605: t.getSuccessR
+
+
+// 查看成就
+1606: viewEffort,100
+1607: t.viewEffortR
+
+//得到称号
+1608:t.getActTitleR
+******************************************************
+
+
+**********(17XX)EmailCommand**************************
+// 得到邮件列表
+1701: emailList,100
+1702: e.emailListR
+
+// 邮件的发送
+1703: sendEmail,100
+1704: e.sendEmailR
+
+// 更新邮件
+1705: updateEmail,100
+1706: e.updateEmailR
+
+// 删除邮件
+1707: delEmail,100
+1708: e.delEmailR
+
+// 新邮件条数
+1709: newEmailTotal,100
+1710: e.newEmailTotalR
+
+// 提取邮件物品
+1711: extractGoods,1000
+1712: e.extractGoodsR
+
+// 退售
+1713: exitEmail,100
+1714: e.exitEmailR
+******************************************************
+
+
+**********(18XX)ExchangeCommand移炼指令***************
+
+// 移炼需求
+1801: exchangNeed,100
+1802: o.exchangNeedR
+
+// 移炼
+1803: exchangeBaoShi,100
+1804: o.exchangeBaoShiR
+******************************************************
+
+
+**********(19XX)FamilyCommand ************************
+// 得到家族列表
+1901: familyList,100
+1902: f.familyListR
+
+// 得到家族成员列表信息
+1903: familyMembers,100
+1904: f.familyMembersR
+
+// 家族创建
+1905: familyCreate,100
+1906: f.familyCreateR
+
+// 申请加入家族
+1907: familyApply,100
+1908: f.familyApplyR
+
+// 申请入族回复
+1909: familyApplyBack,100
+1910: f.familyApplyBackR
+
+// 邀请加入家族
+1911: familyInvite,100
+1912: f.familyInviteR
+
+// 邀请回复
+1913: familyInviteBack,100
+1914: f.familyInviteBackR
+
+// 退出家族
+1915: exitFamily,100
+1916: f.exitFamilyR
+
+// 开除成员
+1917: familyFire,100
+1918: f.familyFireR
+
+// 任命副族长
+1919: appointedNegative,100
+1920: f.appointedNegativeR
+
+// 撤消副族长
+1921: fireNegative,100
+1922: f.fireNegativeR
+
+// 更新家族公告
+1923: updateFamilyNotice,100
+1924: f.updateFamilyNoticeR
+
+// 解散家族
+1925: dissolveFamily,100
+1926: f.dissolveFamilyR
+
+// 移交族长
+1927: transferBoss,100
+1928: f.transferBossR
+
+// 得到家族经验
+//1929: FamilyExperience,100
+1930: f.familyExperienceR
+
+// 得到家族技能
+1931: familySkill,100
+1932: f.familySkillR
+
+// 学习家族技能
+1933: studyFamilySkill,100
+1934: f.studyFamilySkillR
+
+// 获取家族Boss列表
+1935: "bossList"
+1936: "f.bossListR"
+
+// 招唤Boss
+1937: "summonBoss"
+1938: "f.summonBossR"
+
+// 挑战Boss
+1939: "fightBoss"
+1940: "f.fightBossR"
+
+// 领取Boss奖励
+1941: "bossAward"
+1942: "f.bossAwardR"
+******************************************************
+
+**********(20XX)FightCommand战斗命令******************
+// 攻打任务怪
+2001: fightTaskApc,100
+
+// 打明怪
+2002: fightSceneApc,100
+
+// 请求打怪错误
+2003: g.fightFalseR
+
+// 玩家退出
+//2004: PlayerExit
+
+// 进入战斗场景
+//2005: IntoBattle
+
+// 进入PK战斗场景
+//2006: IntoBattlePK
+
+// 退出战斗场景
+//2007: RetireFight
+
+// 开始战斗.
+2008: g.startFightR
+
+// 战斗行为(用户的攻击动作)
+2009: fightAction,0
+
+// 客户端准备好战斗场景
+2010: readyFight,100
+
+// 返回值
+2011: g.fightActionR
+
+// 回合结束..
+2012: g.fightTurnEndR
+
+// 准备战斗
+2013: g.fightPreparedR
+
+// 战斗播放完成
+2014: fightPlayOver,100
+
+// 结束战斗.
+2015: g.fightEndR
+
+// 强制PK
+2016: fightPK,100
+
+// 请求切磋
+2017: fightCC,100
+2018: g.fightCCR
+
+// 回复请求
+2019: fightReplyCC,100
+2020: g.fightReplyCCR
+
+// 自动战斗
+2021: autoFight,100
+2022: g.autoFightR
+******************************************************
+
+
+**********(21XX)FinishCommand动作完成命令*************
+// 角色升级
+//2101: RoleUpLev
+
+// 宠物升级
+//2102: PetUpLev
+
+// 非绑定晶币(石币)达到指定数量
+//2103: MaxMoney
+
+// 完成任务(任务ID: 类型)
+//2104: TotalTask
+
+// 镶嵌
+//2105: XianQian
+
+// 合成
+//2106: HeChen
+
+// 宠物资质提升
+//2107: PetZhiZi
+
+// 宠物阶级提升
+//2108: PetJieJi
+
+// 杀死APC
+//2109: KillApc
+
+// 添加好友
+//2110: 
+
+// 师徒关系
+//2111: 
+
+// 家族关系
+//2112: 
+
+// 宠物技能提取
+//2113: PetSkill
+
+// 放生宠物数量
+//2114: PetOut
+
+// 孵化宠物数量
+//2115: PetFuHua
+
+// 孵化不同职业的宠物数量
+//2116: PetJobFuHua
+
+// 当前好友数量
+//2117: Friends
+******************************************************
+
+
+**********(22XX)FuseCommand合成指令*******************
+// 得到可合成的配置列表
+2201: fuseList,100
+2202: o.fuseListR
+
+// 当前角色可以合成道具列表
+2203: fusePossibleList,100
+2204: o.fusePossibleListR
+
+// 合成操作
+2205: fuse,100
+2206: o.fuseR
+******************************************************
+
+
+**********(23XX)GMCommand*****************************
+// 客户端异常日志
+2327: clientError,100
+// 客户报告问题
+2328: clientReport,100
+
+// GM返回
+2301: a.gmR
+
+// 踢出指定用户
+2302: kickUser
+
+// 当前在线人数
+2303: online
+2304: a.onlineR
+
+// 设置玩家状态
+2305: setPlayerState
+
+// 查看角色信息
+2306: viewPlayer
+2307: a.viewPlayerR
+
+// 设置禁言
+2308: setTalk
+
+// 推送公告
+2309: notice
+
+// 多倍经验
+2310: doubleexp
+
+// 开启活动.
+2311: part
+
+// 充值
+2331: coin
+2332: score
+2333: bond
+
+// 添加经验
+2334: exp
+
+// 删除某个任务
+2335: taskremove
+
+// 重新触发某个任务
+2336: taskact
+
+// 得到任务ID
+2337: taskid
+
+// 道具ID
+2338: goodsid
+
+// 道具赠送
+2339: getgood
+// 道具移除
+2340: goodremove
+
+// 添加宠物经验
+2341: petexp
+2342: skill
+2343: pskill
+2344: exitall
+2345: restart
+// 家族升级
+2346: familyup
+
+//邮件查询
+2347:selectemail
+2348:a.selectemailR
+
+//GM删除别人邮件
+2349:gMDelEmail
+
+//GM拍卖行出售列表
+2350:gMAuctionList
+2351:a.gMAuctionListR
+
+//GM删除拍卖行数据
+2352:gMAuctionDel
+2353:a.gMAuctionDelR
+
+//GM清理包袱，仓库,家园,兽栏
+2354:gMBurdenClear
+2355:a.gMBurdenClearR
+
+//GM操作商诚信息
+2356:gMMallInfo
+2357:a.gMMallInfoR
+
+//公告更新
+2358:noticeList
+2359:a.noticeListR
+//更新
+2360:updateNotice
+2361:a.updateNoticeR
+
+//任务重置
+//2362:taskReset
+
+//活动更新
+2363:updatePart
+******************************************************
+
+
+**********(24XX)GoodsCommand**************************
+// 获取单个物品的详细信息
+2401: getGoodsDetail,100
+2402: o.getGoodsDetailR
+
+
+// 得到商品或道具列表
+2403: nPCGoodsList,100
+2404: o.nPCGoodsListR
+
+// 更新装备的基本信息
+2405: updateEquip,100
+2406: o.updateEquipR
+
+// 得到装备面板
+2407: getEquipPanel,100
+2408: o.getEquipPanelR
+
+// 捡到物品
+2409: madeGoods,100
+2410: o.madeGoodsR
+
+// 物品使用
+2411: useGoods,100
+2412: o.useGoodsR
+
+// 换装操作
+2413: dress,100
+2414: o.DressR
+
+// 卸装操作
+2415: uninstall,100
+2416: a.uninstallR
+
+// 道具的销毁
+2417: ruin,100
+2418: o.ruinR
+
+// 买得物品
+2419: buyGoods,100
+2420: o.buyGoodsR
+
+// 卖物品
+2421: sellGoods,100
+2422: o.sellGoodsR
+
+// 装备维修
+2423: equipRepair,100
+2424: o.equipRepairR
+
+// 得到道具
+2425: getFightGoods,100
+2426: o.getFightGoodsR
+
+// 得到物品通知客户端
+2427: o.getGoodsCallR
+
+// 系统奖励领取
+2428: systemAward,100
+2429: o.systemAwardR
+
+// 答题
+2430: answerAward,100
+2431: v.answerAwardR
+
+//批量使用道具
+2432:allUseGoods,100
+2433:o.allUseGoodsR
+
+//装备洗点
+2434:goodsWashing,100
+2435:o.goodsWashingR
+
+//抽奖领取
+2436:lotteryAward,100
+2437:o.lotteryAwardR
+******************************************************
+
+
+**********(25XX)HomeCommand***************************
+// 得到家园信息
+2501: homeInfo,100
+2502: h.homeInfoR
+
+// 宠物驯养
+2503: homePetKeep,100
+2504: h.homePetKeepR
+
+// 终止宠物驯养
+2505: homeStopKeep,100
+2506: h.homeStopKeepR
+
+// 家园生产
+2507: homeProduce,100
+2508: h.homeProduceR
+
+// 家园采集
+2509: homePluck,100
+2510: h.homePluckR
+
+// 采集中止
+2511: homeStopPluck,100
+2512: h.homeStopPluckR
+
+// 得到生产列表道具信息
+2513: homeProduceList,100
+2514: h.homeProduceListR
+
+// 宠物进入工作士
+2515: inPet,100
+2516: h.inPetR
+
+// 停止生产
+2517: stopProduce,100
+2518: h.stopProduceR
+
+// 完成后收集物品
+2519: collection,100
+2520: h.collectionR
+
+// 取回宠物 
+2521: petRetrieve,100
+2522: h.petRetrieveR
+
+// 回收宠物 
+2523: petBack,100
+2524: h.petBackR
+
+// 获取留言
+2525: getBoard,100
+2526: h.getBoardR
+// 添加留言
+2527: h.addBoardR
+// 删除留言
+2528: removeBoard,100
+******************************************************
+
+
+**********(26XX)LoginCommand**************************
+// 用户登录命令
+2601: login,100
+2602: a.loginR
+
+// 角色登录命令
+2603: playerLogin,100
+2604: a.playerLoginR
+
+
+// 角色登录成功命令
+//2605: PlayerLoginSuccess
+
+// 角色登录结果
+//2606: PlayerLoginFailed
+******************************************************
+
+
+**********(27XX)MallCommand***************************
+// 得到商城商品信息列表
+2701: getMallList,100
+2702: o.getMallListR
+
+// 购买商城商品
+2703: buyMallGoods,100
+2704: o.buyMallGoodsR
+
+// 得到商城基本信息
+2705: getMallDetails,100
+2706: o.getMallDetailsR
+
+// 1点券购买日志
+2707: oneBondLog,100
+2708: o.oneBondLogR
+
+// 1点券购买
+2709: oneBondBuy,100
+2710: o.oneBondBuyR
+
+// 购买晶币订单
+2711: coinOrder,100
+2712: w.coinOrderR
+
+// 充值成功
+2713: w.coinSuccessR
+
+// 腾讯开放平台应用签名
+2714: sign,100
+2715: w.signR
+
+// 产生订单号
+2716: newToken,100
+2717: w.newTokenR
+******************************************************
+
+
+**********(28XX)MeltCommand熔炼指令*******************
+// 得到熔炼的信息
+2801: meltInfo,100
+2802: o.meltInfoR
+
+// 熔炼
+2803: melt,100
+2804: o.meltR
+******************************************************
+
+
+**********(29XX)MessageCommand************************
+// 通过连接ID调用客户端的方法
+//2901: InvokeClientByConnectID
+
+// 根据用户ID调用客户端的方法
+//2902: InvokeClientByUserID
+
+// 根据玩家ID调用客户端的方法
+//2903: InvokeClientByPlayerID
+
+// 根据场景ID调用客户端的方法
+//2904: InvokeClientBySceneID
+******************************************************
+
+
+**********(30XX)MosaicCommand镶嵌指令*****************
+// 镶嵌操作
+3001: mosaic,100
+3002: o.mosaicR
+
+// 镶嵌需求
+3003: mosaicNeed,100
+3004: o.mosaicNeedR
+******************************************************
+
+
+**********(31XX)PaiHangCommand************************
+// 获取我的名次
+3101: getMyRank,100
+3102: r.getMyRankR
+
+// 获取角色排行
+3103: getRoleLev,100
+3104: r.getRoleLevR
+
+// 获取宠物排行
+3105: getPetLev,100
+3106: r.GetPetLevR
+
+// 获取夺宝排行
+3107: getRobRank,100
+3108: r.getRobRankR
+******************************************************
+
+
+**********(32XX)PartCommand***************************
+// 返回所有活动对象
+3201: v.partsR
+
+// 活动开始
+3202: v.partStartR
+
+// 活动结束
+3203: v.partEndR
+
+// 夺宝奇兵家庭奖励
+//3204: RobFamilyAward
+
+// 合成光环
+3205: aura,100
+
+// 合成光环返回
+3206: v.auraR
+
+// 光环改变
+3207: v.auraChangeR
+
+// 上缴光环
+3208: turnAura,100
+
+// 上缴结果
+3209: v.turnAuraR
+
+//活动相关物品兑换
+3210:partExchange,100
+3211:v.partExchangeR
+//充值
+3212:recharge,100
+
+//得到活动明细
+3213:partDetails,100
+3214:v.partDetailsR
+
+//活动领取明细
+3215:partReceive,100
+3216:v.partReceiveR
+******************************************************
+
+
+**********(33XX)PetsCommand***************************
+// 宠物的创建
+3301: createPets,100
+
+// 得到宠物基本信息
+3302: getPetsInfo,0
+3303: p.getPetsInfoR
+
+// 得到带领的宠物信息
+3304: guidePetsInfo,100
+3305: p.guidePetsInfoR
+
+// 升级宠物 
+3306: upgradePets,100
+
+// 更新宠物名称
+3307: changePetsName,100
+3308: p.changePetsNameR
+
+// 资质提升
+3309: ziZhiPets,100
+3310: p.ziZhiPetsR
+
+// 喂养宠物 
+3311: feedPets,100
+3312: p.feedPetsR
+
+// 宠物进化
+3313: upPetsRank,100
+3314: p.upPetsRankR
+
+// 宠物放生
+3315: petRelease,100
+3316: p.petReleaseR
+
+// 激活宠物槽
+3317: shockPetGroove,100
+3318: p.shockPetGrooveR
+
+// 宠物更新
+3319: p.updatePetR
+
+// 宠物仓库拖动操作
+3320: petBurdenDrag,100
+3321: p.petBurdenDragR
+
+// 放养或抓取
+3322: stocking,100
+3323: p.stockingR
+
+// 得到宠物列表
+3324: getPetsList,100
+3325: h.getPetsListR
+
+// 家园放养领取奖励
+3326: stockingAward,100
+3327: p.stockingAwardR
+
+// 宠物家园扩展
+3328: petExtend,100
+3329: p.petExtendR
+
+// 提取宠物技能
+3330: drawPetSkill,100
+3331: p.drawPetSkillR
+
+// 解除技能
+3332: removeSkill,100
+3333: p.removeSkillR
+
+// 遗忘技能
+3334: oblivionSkill,100
+3335: p.oblivionSkillR
+
+// 激活空位槽
+3336: shockSkill,100
+3337: p.shockSkillR
+
+// 添加宠物技能
+3338: addSkill,100
+3339: p.addSkillR
+
+// 添加宠物快捷键
+3340: addKey,100
+3341: p.addKeyR
+
+// 偷取宠物
+3342: stealPet,100
+3343: p.stealPetR
+
+// 宠物保护
+3344: petProtection,100
+3345: p.petProtectionR
+
+// 一键照顾
+3346: stockingAll,100
+3347: p.stockingAllR
+
+// 得到宠物基本属性值
+3348: petProperty,0
+3349: p.petPropertyR
+
+// 吸星魔法
+3350: petAbsorb,100
+3351: p.petAbsorbR
+// 护理宠物
+3352: petNurse,100
+3353: p.petNurseR
+
+//赠送宠物
+3354:petPresent,100
+3355:p.petPresentR
+        
+//一键喂养
+3356:feedPetsAll,100
+3357:p.feedPetsAllR
+
+//宠物进化技能变更
+3358:evoSkillChange,100
+3359:p.evoSkillChangeR
+
+//宠物进化技能提升等级
+3360:evoSkillUp,100
+3361:p.evoSkillUpR
+******************************************************
+
+
+**********(34XX)PunchCommand打孔指令******************
+// 打孔需求
+3401: punchNeed,100
+3402: o.punchNeedR
+
+// 打孔操作
+3403: punch,100
+3404: o.punchR
+******************************************************
+
+
+**********(35XX)SkillCommand**************************
+// 获取所有技能信息
+3501: getSkills,100
+3502: s.getSkillsR
+
+// 获取单个技能信息
+3503: getSkill,100
+3504: s.getSkillR
+
+// 学习技能
+3505: studySkill,100
+3506: s.studySkillR
+
+// 加载单个技能信息
+3507: loadSkill,100
+3508: s.loadSkillR
+******************************************************
+
+
+**********(36XX)SocialCommand*************************
+// 得到社交关系列表
+3601: socialList,100
+3602: d.socialListR
+
+// 添加好友
+3603: addFriends,100
+3604: d.addFriendsR
+
+// 删除好友
+3605: delFriends,100
+3606: d.delFriendsR
+
+// 拜师申请
+3607: masterApply,100
+3608: d.masterApplyR
+
+// 拜师回复
+3609: masterBack,100
+3610: d.masterBackR
+
+// 收徒申请
+3611: apprenticeApply,100
+3612: d.apprenticeApplyR
+
+// 收徒回复
+3613: apprenticeBack,100
+3614: d.apprenticeBackR
+
+// 解除师徒关系
+3615: delMaster,100
+3616: d.delMasterR
+
+// 升级解除师徒关系
+3617: d.upDelMentorR
+
+// 添加仇人
+3618: addEnemy,100
+3619: d.addEnemyR
+
+// 删除仇人
+3620: delEnemy,100
+3621: d.delEnemyR
+
+// 出师
+3622: outMaster,100
+3623: d.outMasterR
+
+// 好友申请
+3624: friendsApply,100
+3625: d.friendsApplyR
+
+// 申请回复
+3626: friendsBack,100
+3627: d.friendsBackR
+
+// 招唤师傅
+3628: summonMaster,100
+3629: d.summonMasterR
+
+// 回复招唤
+3630: replySummon,100
+3631: d.replySummonR
+
+//好友祝福
+3632:friendsBless,100
+3633:d.friendsBlessR
+
+//邀请QQ好友
+3634:invitedFriends,100
+3635:w.invitedFriendsR
+
+//好友分享
+3636:friendShare,100
+3637:d.friendShareR
+******************************************************
+
+
+**********(37XX)TaskCommand任务触发指令***************
+// 玩家属性发生变化触发
+//3701: PlayerActivation
+
+// 使用道具触发
+//3702: PropsActivation
+
+// 宠物属性发生变化触发
+//3703: PetsActivation
+
+// 任务完成触发新任务
+//3704: TaskFinish
+
+// 任务触发成功通知客户端
+3705: i.taskNewR
+
+// 得到玩家任务列表
+3706: playerTaskList,100
+3707: i.playerTaskListR
+
+// 更新任务
+3708: updateTask,100
+3709: i.updateTaskR
+
+// 战斗结束任务更新
+3710: fightingTask,100
+3711: i.fightingTaskR
+
+// 任务完成领奖
+3712: award,1
+3713: i.awardR
+
+// 玩家任务的放弃
+3714: giveup,100
+3715: i.giveupR
+
+// 是否显示
+3716: isShow,100
+3717: i.isShowR
+
+// 任务采集
+3718: taskCollect,100
+3719: i.taskCollectR
+
+// 任务道具发生变化
+3720: taskGoods,100
+******************************************************
+
+
+**********(38XX)TeamCommon 团队命令*******************
+// 创建队伍
+3801: createTeam,100
+3802: g.createTeamR
+
+// updateTeam(o:Object) 队长更新组队信息，包括：AutoAgree（自动同意） ShieldAutoApply（屏弊） Icon（图标） Explain（宣言）
+3803: updateTeam,100
+3804: g.updateTeamR
+
+// 请求入队
+3805: intoTeam,100
+3806: g.intoTeamR
+
+// 快速入队请求
+3807: quickApply,100
+
+// 队长返回请求结果
+3808: replyApply,100
+
+// 快速邀请
+3809: quickInvite,100
+
+// 邀请
+3810: invite,100
+
+// 通知被邀请的玩家
+3811: g.inviteR
+
+// 玩家回复是否同意
+3812: replyInvite,100
+
+// 如果队伍不是自动接受玩家申请，通知队长
+3813: g.applyR
+
+// 队长同意或自动接受通知所有成员
+3814: g.newMemberR
+
+// 移交队长给指定玩家: 成功后调用updateTeamR
+3815: changeManager,100
+3816: g.changeManagerR
+
+// 其他人进入队伍
+3817: g.otherIntoTeamR
+
+// 退出队伍
+3818: outTeam,100
+3819: g.outTeamR
+
+// 暂离队伍
+3820: awayTeam,100
+3821: g.awayTeamR
+
+// 归队...
+3822: rejoinTeam,100
+3823: g.rejoinTeamR
+
+// 将指定的玩家踢出队伍
+3824: killMember,100
+
+// 解散队伍
+3825: freeTeam,100
+3826: g.freeTeamR
+
+// 取得队伍列表
+3827: getTeamList,100
+3828: g.getTeamListR
+
+// 取得自己的队伍信息
+3829: getMyTeam,100
+3830: g.getMyTeamR
+******************************************************
+
+
+**********(39XX)TitleCommand**************************
+// 获取所有称号信息
+3901: getTitles,100
+3902: t.getTitlesR
+
+// 获取单个称号信息
+3903: getTitle,100
+3904: t.getTitleR
+
+// 设置称号
+3905: setTitle,100
+3906: t.setTitleR
+
+// 获取自己的称号
+3907: myTitle,100
+3908: t.myTitleR
+******************************************************
+
+
+**********(40XX)UserPlayerCommand*********************
+// 用户创建新的玩家
+4001: createPlayer,100
+4002: a.createPlayerR
+
+// 角色创建成功..
+//4003: CreatePlayerSuccess
+
+// 自动生成玩家名.
+4004: createPlayerName,100
+4005: a.createPlayerNameR
+
+// 用户删除自已创建的玩家
+4006: delPlayer,100
+4007: a.delPlayerR
+
+// 用户恢复删除中的玩家角色
+4008: recoverPlayer,100
+4009: a.recoverPlayerR
+******************************************************
+
+
+**********(41XX)StarCommand****************************
+//冥想
+4101:playerMeditation,100
+4102:c.playerMeditationR
+//激活星座
+4103:startStar,100
+4104:c.startStarR
+//宠物放入星阵
+4105:inStarTroops,100
+4106:c.inStarTroopsR
+//取出星阵中宠物
+4107:outStarTroops,100
+4108:c.outStarTroopsR
+//取得星阵星力
+4109:getStarTroops,100
+4110:c.getStarTroopsR
+//暴星分享
+4111:startStarShared,100
+4112:c.startStarSharedR
+
+//是否激合星阵
+4113:isStartTroops,100
+4114:c.isStartTroopsR
+******************************************************
+
+**********(42XX)InstanceCommand(组队秘境)*************
+// 创建新秘境
+4201: newInstance,100
+
+// 创建新秘境
+4202: g.newInstanceR
+
+// 打秘境怪
+4203: fightEctypeApc,100
+******************************************************
+  
+//商城试穿
+4301:mallDressing,100
+4302:o.mallDressingR
+//穿时装
+4303:dressing,100
+4304:o.dressingR
+//取消时装
+4305:noDressing,100
+4306:o.noDressingR
+//时装兑换
+4307:fashionExchange,100
+4308:o.fashionExchangeR
+
+//骑乘或召回坐骑
+4401:inOutMounts,100
+4402:j.inOutMountsR
+//坐骑技能更换
+4403:mountsSkillChange,100
+4404:j.mountsSkillChangeR
+//坐骑进化
+4405:mountsUp,100
+4406:j.mountsUpR
+//坐骑技能升级
+4407:mountsSkillUp,100
+4408:j.mountsSkillUpR
+//坐骑提高经验
+4409:mountsExpAdd,100
+4410:j.mountsExpAddR
+
+//激合码奖励
+4501:codeAward
+4502:v.codeAwardR
+//活动更新
+4503:v.updatePartListR

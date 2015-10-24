@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<answer>
+  <awards>
+    <p row="2" color="FFE7A9" weight="">
+      获得角色经验：
+      <RExp color="EBCC84">
+        PlayerExp
+      </RExp>
+      获得宠物经验：
+      <PExp color="EBCC84">
+        PetExp
+      </PExp>
+    </p>
+  </awards>
+  <tips>
+    <success color="00ffff" > 恭喜您！答对了！</success>
+    <failed color="ffff00" >很遗憾，这不是正确答案！</failed>
+  </tips>
+  <content id="A_0001" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，凡海城中的泰歌尔是干什么的？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >家族管理员</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >家园管家</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >技能训练师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >坐骑商人</p>
+    </i>
+  </content>
+
+  <content id="A_0002" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">一年中哪个月的天数最少？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >2月</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >3月</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >5月</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >6月</p>
+    </i>
+  </content>
+
+
+  <content id="A_0003" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">"龙眼"又称：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >桂圆</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >香蕉</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >葡萄</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >枣子</p>
+    </i>
+  </content>
+
+  <content id="A_0004" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">世界上海拔最高的山峰是哪一座？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >泰山</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >衡山</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >恒山</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >珠穆朗玛峰</p>
+    </i>
+  </content>
+
+  <content id="A_0005" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">陈皮是以哪种水果的表皮为原料的？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >苹果皮</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >杏子皮</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >橘子皮</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >葡萄皮</p>
+    </i>
+  </content>
+
+  <content id="A_0006" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">南极特有的动物是什么？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >老虎</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >狮子</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >企鹅</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >猴子</p>
+    </i>
+  </content>
+
+  <content id="A_0007" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">太阳系中最大的行星是：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >水星</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >金星</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >地球</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >木星</p>
+    </i>
+  </content>
+
+  <content id="A_0008" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">世界上已知的最坚硬物质是：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >翡翠</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >玛瑙</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >金刚石</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >珍珠</p>
+    </i>
+  </content>
+
+  <content id="A_0009" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        石器时代的开始是以人类用哪种材料制作工具作为标
+        识的？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >空气</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >石头</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >铁</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >奥特曼</p>
+    </i>
+  </content>
+
+  <content id="A_0010" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在原始社会，人类常用来捕杀猎物的武器是：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >方天画戟</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >AK47</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >竹制弓箭</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >凶狠的目光</p>
+    </i>
+  </content>
+
+  <content id="A_0011" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在原始社会，人类常用来向远方传达紧急信息的方式
+        是：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >发短信</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >QQ留言</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >用心灵感应</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >按约定好的规律吹口哨</p>
+    </i>
+  </content>
+
+  <content id="A_0012" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        《石器宝贝》中，玩家第一次进入的城市是：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >凡海城</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >鸣雷城</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >风林城</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >荒漠城</p>
+    </i>
+  </content>
+
+  <content id="A_0013" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">《石器宝贝》中一共有几大主城？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >1</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >2</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >3</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >4</p>
+    </i>
+  </content>
+
+  <content id="A_0014" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">凡海城中的草药商人是谁？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >白求恩</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >久思人</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >路人甲</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >米纳岸</p>
+    </i>
+  </content>
+
+  <content id="A_0015" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">鸣雷城里的雷贤者叫什么名字：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >雷诺</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >雷锋</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >阿拉雷</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >雷人</p>
+    </i>
+  </content>
+
+  <content id="A_0016" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">每一个账号最多可以拥有几个角色？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >1个</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >2个</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >3个</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >4个</p>
+    </i>
+  </content>
+
+  <content id="A_0017" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">可以提高宠物成长度的果子叫：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >成长果实</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >火龙果</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >无花果</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >苹果</p>
+    </i>
+  </content>
+
+  <content id="A_0018" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">在《石器宝贝》中流通的货币叫：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >钞票</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >钢镚儿</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >金元宝</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >石币</p>
+    </i>
+  </content>
+
+  <content id="A_0019" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在寂寞沙滩居住的美女祭司叫什么名字？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >蓝依</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >路人甲</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >希拉</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >蘑菇头</p>
+    </i>
+  </content>
+
+  <content id="A_0020" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">最多可以有几只宠物跟随玩家移动？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >1只</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >3只</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >5只</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >7只</p>
+    </i>
+  </content>
+
+  <content id="A_0021" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">被四大贤者合力封印的大魔王叫：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >秃尾巴狼</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >咕噜</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >威震天</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >泰达</p>
+    </i>
+  </content>
+
+  <content id="A_0022" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">在《石器宝贝》中如何移动：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >按W</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >鼠标左键点击地面</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >大喊一声：走！</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >骑上坐骑后喊一声：驾</p>
+    </i>
+  </content>
+
+  <content id="A_0023" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“走石”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+
+  <content id="A_0024" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">““重击”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0025" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“寒雪箭”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0026" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“飞沙”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0027" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“燎原箭”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0028" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“横劈斩”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0029" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“回春”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0030" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“冲锋”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0031" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">“冻结”是哪个职业的技能？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >发明家</p>
+    </i>
+  </content>
+
+  <content id="A_0032" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">湖心谷的咝咝是一只：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >猪</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >鱼</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >狼</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >老虎</p>
+    </i>
+  </content>
+
+  <content id="A_0033" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">湖心谷的喳喳是一只：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >猪</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >鱼</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >狼</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >老虎</p>
+    </i>
+  </content>
+
+  <content id="A_0034" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，路人甲最喜欢的姑娘是谁？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >荼靡</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >希拉</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >金刚芭比</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >百合裳</p>
+    </i>
+  </content>
+
+
+  <content id="A_0035" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">《石器宝贝》中一共有几大职业？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >1</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >2</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >3</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >4</p>
+    </i>
+  </content>
+
+  <content id="A_0036" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">风贤者风信居住在那座主城？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >白宫</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >凡海城</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >风林城</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >北京城</p>
+    </i>
+  </content>
+
+  <content id="A_0037" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">太阳系中离太阳最远的行星是：</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >水星</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >冥王星</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >地球</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >木星</p>
+    </i>
+  </content>
+
+  <content id="A_0038" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">仙人掌主要生长在什么样的环境？</p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >沙漠</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >海底</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >外太空</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >山顶</p>
+    </i>
+  </content>
+
+  <content id="A_0039" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪个职业的物理攻击最高？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+  </content>
+
+  <content id="A_0040" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪个职业的魔法攻击最高？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+  </content>
+
+  <content id="A_0041" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪个职业的可以使用技能复活队
+        友？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狂战士</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >魔弓手</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神祭师</p>
+    </i>
+  </content>
+
+  <content id="A_0042" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，水贤者希拉的心上人是谁？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >米纳岸</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >心儿</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >金刚芭比</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >查理</p>
+    </i>
+  </content>
+
+  <content id="A_0043" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，鸣雷城里的发明家叫什么名字
+        ：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >安凡</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >强大力</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >谢丽尔</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >娇拉汀</p>
+    </i>
+  </content>
+
+  <content id="A_0044" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，下面哪一个是家园里的埃德尔不
+        能生产的东西:
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >成长果实</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >战斗计时器</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >大型生命药剂</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >放大镜</p>
+    </i>
+  </content>
+
+
+  <content id="A_0045" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在西方神话故事里，被称为“众神之王”，掌管天界
+        的是：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >宙斯</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >赫拉</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >雅典娜</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >哈迪斯</p>
+    </i>
+  </content>
+
+  <content id="A_0046" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提升物理攻击：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >白水晶</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >红水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >绿水晶</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >黑水晶</p>
+    </i>
+  </content>
+
+  <content id="A_0047" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提升体质：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >武力石</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >蓝水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >绿水晶</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >生命石</p>
+    </i>
+  </content>
+
+  <content id="A_0048" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提升精神：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >智慧石</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >黄水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神气石</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >生命石</p>
+    </i>
+  </content>
+
+  <content id="A_0049" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提高智力：：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >智慧石</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >黄水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神气石</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >生命石</p>
+    </i>
+  </content>
+
+  <content id="A_0050" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提高魔法防御：：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >智慧石</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >黄水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神气石</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >生命石</p>
+    </i>
+  </content>
+
+  <content id="A_0051" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提高闪避：：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >白水晶</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >红水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >绿水晶</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >黑水晶</p>
+    </i>
+  </content>
+
+  <content id="A_0052" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提高物理防御：：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >武力石</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >蓝水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >绿水晶</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >生命石</p>
+    </i>
+  </content>
+
+  <content id="A_0053" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种宝石可以提高命中：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >黄水晶</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >红水晶</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >绿水晶</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >白水晶</p>
+    </i>
+  </content>
+
+  <content id="A_0054" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，战斗计时器的有效时间是：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >1小时</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >2小时</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >3小时</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >4小时</p>
+    </i>
+  </content>
+
+  <content id="A_0055" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，一瓶小恢复魔水能恢复的血量及魔法值均为：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >5000</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >10000</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >15000</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >20000</p>
+    </i>
+  </content>
+
+  <content id="A_0056" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，25级就可以接取的环式任务“巡城”一共有多少环？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >10环</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >15环</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >50环</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >100环</p>
+    </i>
+  </content>
+
+  <content id="A_0057" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，背包中一共有多少个储物格子？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >36个</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >49个</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >64个</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >81个</p>
+    </i>
+  </content>
+
+  <content id="A_0058" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，狂战士的“断岩击”最高的技能等级是多少？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >1</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >3</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >5</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >10</p>
+    </i>
+  </content>
+
+  <content id="A_0059" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        是六畜中的动物，且最早被人类驯化的是：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >狼</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >猪</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >狗</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >熊猫</p>
+    </i>
+  </content>
+
+  <content id="A_0060" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        狗依靠什么来散热？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >爪子</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >眼睛</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >耳朵</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >舌头</p>
+    </i>
+  </content>
+
+  <content id="A_0061" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        到今天为止，太阳的年龄大概有多少岁？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >5亿</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >10亿</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >30亿</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >50亿</p>
+    </i>
+  </content>
+
+  <content id="A_0062" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        《喜羊羊与灰太狼》发生在羊历多少年？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >2011</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >3513</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >5028</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >1573</p>
+    </i>
+  </content>
+
+  <content id="A_0063" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，优质的经验宝珠可以给出战宠物增加多少经验？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >2万</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >5万</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >20万</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >50万</p>
+    </i>
+  </content>
+
+  <content id="A_0064" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，光亮的经验宝珠可以给出战宠物增加多少经验？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >2万</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >5万</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >20万</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >50万</p>
+    </i>
+  </content>
+
+  <content id="A_0065" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，光亮的经验宝珠可以给出战宠物增加多少经验？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >2万</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >5万</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >20万</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >50万</p>
+    </i>
+  </content>
+
+  <content id="A_0066" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪一种不是家园生产中必需的材料？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >金苜蓿</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >奇异的粉尘</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >神秘的果子</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >雪芽草</p>
+    </i>
+  </content>
+
+  <content id="A_0067" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，背包中的单个格子里，最多可存放多少个成长果实？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >1</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >20</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >50</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >99</p>
+    </i>
+  </content>
+
+  <content id="A_0068" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》四大主城中，建造在雪域上的城市是：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >凡海城</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >鸣雷城</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >风林城</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >荒漠城</p>
+    </i>
+  </content>
+
+  <content id="A_0069" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        蜜蜂窝的内部结构是什么图形？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >三角形</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >正方形</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >六边形</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >五角星形</p>
+    </i>
+  </content>
+
+  <content id="A_0070" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中哪个NPC可以帮助玩家在主城间相互传送？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >传送使者</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >阿格罗普</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >心儿</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >尹式</p>
+    </i>
+  </content>
+
+  <content id="A_0071" right="A">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，哪种道具可以提高宠物的抓捕成功率？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >捕兽网</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >成长果实</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >经验宝珠</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >武器</p>
+    </i>
+  </content>
+
+  <content id="A_0072" right="B">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，由玩家自行组成的社交团体叫什么？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >帮会</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >家族</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >会社</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >军团</p>
+    </i>
+  </content>
+
+  <content id="A_0073" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        第一次进入《石器宝贝》，第一只陪伴你身边的宠物是一只：
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >老虎</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >小猫</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >小狗</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >长脚的蛋</p>
+    </i>
+  </content>
+
+  <content id="A_0074" right="D">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，荒漠城是哪个贤者的住所？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >水贤者</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >雷贤者</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >风贤者</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >火贤者</p>
+    </i>
+  </content>
+
+  <content id="A_0075" right="C">
+    <title>
+      <p color="EBCC84" weight="" bColor="">
+        在《石器宝贝》中，风林城是哪个贤者的住所？
+      </p>
+    </title>
+    <i id="A">
+      <p color="EBCC84" >水贤者</p>
+    </i>
+    <i id="B">
+      <p color="EBCC84" >雷贤者</p>
+    </i>
+    <i id="C">
+      <p color="EBCC84" >风贤者</p>
+    </i>
+    <i id="D">
+      <p color="EBCC84" >火贤者</p>
+    </i>
+  </content>
+</answer>
